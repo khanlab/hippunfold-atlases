@@ -9,6 +9,13 @@
          <Value><![CDATA[Invalid]]></Value>
       </MD>
       <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[work/tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+wb_command -volume-label-import work/tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold_khanlab/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt work/tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+]]></Value>
+      </MD>
+      <MD>
          <Name><![CDATA[ProgramProvenance]]></Name>
          <Value><![CDATA[Connectome Workbench
 Type: Command Line Application
@@ -26,7 +33,7 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-to-surface-mapping work/tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfields_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_dseg.label.gii -enclosing]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping work/tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
@@ -35,9 +42,15 @@ Compiled with OpenMP: YES
    </MetaData>
    <LabelTable>
       <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+      <Label Key="6" Red="1" Green="1" Blue="0" Alpha="1"><![CDATA[DG]]></Label>
    </LabelTable>
-<DataArray Intent="NIFTI_INTENT_NORMAL"
-           DataType="NIFTI_TYPE_FLOAT32"
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
            ArrayIndexingOrder="RowMajorOrder"
            Dimensionality="1"
            Dim0="28897"
@@ -48,9 +61,9 @@ Compiled with OpenMP: YES
    <MetaData>
       <MD>
          <Name><![CDATA[Name]]></Name>
-         <Value><![CDATA[ enclosing voxel]]></Value>
+         <Value><![CDATA[]]></Value>
       </MD>
    </MetaData>
-   <Data>eJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAGw5MAAQ==</Data>
+   <Data>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</Data>
 </DataArray>
 </GIFTI>
