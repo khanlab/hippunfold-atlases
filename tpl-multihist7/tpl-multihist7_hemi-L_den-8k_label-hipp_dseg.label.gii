@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-8k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-8k_label-hipp_dseg.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+      <Label Key="6" Red="1" Green="1" Blue="0" Alpha="1"><![CDATA[DG]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="8042"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2NtqxDAMBNBst/v/v1wWGggh3nVsjTRjqRBK6YvP6JLLY9u2B+D6mbieHdfvwIVwRvhH7J5+lH3UvUrtVfwzGazgZ7Mr+FE7//V/ZfXvGbD6e9xK8z9qR/cAm333rrL/Zu75vbOwsh9pR/stav8pg1k7ev+j/bMZlF/fz/z842Ev/9w7ALO9/Lr9z+5Hvv9a2RX9lnbU/L82DT9697H7Uf2vUv8e/0ztrf0Ktc/uf20Yv7Ud4T/by6/d/7O9r+y3sCv7LXqf+f5vOfstO/v7j6Lfe/9/y+GTXb3+PT3g7WfbgVV/bf/598gOVPWfzaMZZPcrPv9cWRXqb73/Lfaglx9h781gxf5X9EfNQHb/6A5A+BEZoJ4FVfyzGajXHzUDSv7ZPZjBf3cGUH7GHlih/tYzUH49v+UMKNp7MujtgRX92fs/g5+5/tn738vfyuDOe6Cyn7X+zPPvUX9m/wrvP1azr17/kR5Yqf7l553/7P1f/ur/zH7G/bfK91+V+ntkwFz/qB7IVP/ZHkD7I2aA4f23+p+z/hnmn6n/0Rmwfv/y8DN//4uqfbb7X1b/SO1r/tepf83/+Ax4+5lnoPzlV/a3Mih/bn8rg4j7H1sPRPmRGYzOQPn1/TP3QG8/IoOZ5+Cs9lX8o/Mf5ffsA1Y/ywxE1t8yh/KXf/RbWKTfKoNv/k8ZRPs9M7jKIdoe3QPRdu/6n/OItlv59wzu9kK03dJ/957AsP8jMmCbf5R/z+C34X8SuI9+RA5H89XfUXW2tp5re/yf8nfelst6f6HqcmU4OyznB3H+1rOz1fxYn/fT2Y91Zuz31tmtz43M/Hh2qx63PpN1D3jlul/vffL++QNZ9EL5</Data>
+</DataArray>
+</GIFTI>

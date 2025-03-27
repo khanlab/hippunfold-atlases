@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-12k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-12k_label-hipp_dseg.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+      <Label Key="6" Red="1" Green="1" Blue="0" Alpha="1"><![CDATA[DG]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="11634"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2MFuwzAMA9Bubf//l4ceCgRGssSxTIoyC/iUS/xCyXIfj/V+P+T1G7yeJ+sVsNS9zowqOEXnC+G1mlmlnKFq0znrM4vyehfxulKTEW5vm9kMYKZem18HtFmGM2A0Vz1mFWaNiIytZBY1X1x1i6rLKmbIXsYyQ2dM3Sza64pbpBdj1mCYqd+dbKZjpnwPYFhF3zlXMnPO7uVs1A5txuxlqrVpsxxuaC+U2ax8od2qmKH7v836vRBmFbzQOctiNuqFMpvd+3vcIqwq5KyiWRYvm2Fz1nrNNMvkZTObZTbb81LvZ4yMrWAW7bWCWXRd2qzfS/1/jYq1OdOs58zs8TvLmLLZHbsIr5XMojJmM5tV6mcz3aLnjRXMZrhVnTWOvP4z9Ew7z8w5iz8H1M1aowgzZs5mW905C7Kbod2qmCHdULOtzXKaodxsNs9s1M1mec0U3WxmM8RZsJJZlFsGsypZq2p21S27GdKrghnaK8psz62y2aysVTe74mazGmZMrzOzzP2MZafcz5h5U82Za1PH68zNZnXM2G6qdyemm2I/s5meW6TXKjkbyRrbTLU+babVzxRrc9X5TLmf2ayGWeZZI2ttZjZju6maMd1UZw2babkp12a2rDlnmKytbuac2QzhpmKWKWsqZlm8lMxYbjYb97JZv5fns9pm2bJms9iM7blV9orIWKac2Sy3m83wPW1Fs9GsZTLLkjWbze9pK3iN9rRMOUOajWTNZuM9bZV+duamkjOb1TVr7dhmDLvRnsa2QptFnANsK5vld4u4D7CdUGZn9wBFM3bGFM0y2KmaIdwqmbHrU9Fstl/EOZDVjHUGKJsxc3blvs62yZi1Mze2jc3y2101+8+ObWKzmmatH9sEbXbHrTVkm7DcvnY9jtlnjdled7KnYoZy6zkH2B5ZzLZu277fmj0TeGTxau2O3DLXJiNbr53nbKPve8x2OepH3+fsvCD2ve0nqH2jvu9R3vf2q/w9t/s4WltvpT1d2d/n2ay8svfX1ory/rZ7RNQea2+vx7y9zXzfmTljfpd2fc6Cz+8PmbxfzQ==</Data>
+</DataArray>
+</GIFTI>

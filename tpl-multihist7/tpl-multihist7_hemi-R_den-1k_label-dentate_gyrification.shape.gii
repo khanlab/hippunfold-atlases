@@ -26,11 +26,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-dentate_gyrification.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-1k_label-dentate_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-1k_label-dentate_gyrification.shape.gii -trilinear]]></Value>
+         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-dentate_gyrification.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-1k_label-dentate_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-1k_label-dentate_gyrification.shape.gii -trilinear]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/srv/trident2/.work/scratch_khanlab/out_multihist7]]></Value>
+         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -40,7 +40,7 @@ Compiled with OpenMP: YES
            DataType="NIFTI_TYPE_FLOAT32"
            ArrayIndexingOrder="RowMajorOrder"
            Dimensionality="1"
-           Dim0="129"
+           Dim0="137"
            Encoding="GZipBase64Binary"
            Endian="LittleEndian"
            ExternalFileName=""
@@ -51,6 +51,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[ trilinear]]></Value>
       </MD>
    </MetaData>
-   <Data>eJwBBAL7/dEwSkAa3pU+V8sgP08L3z4oDOY+LH4OQOJcGUAX2eFApRfcO+6vvUA9CPVAxtIgQOlTwEAnix5AgWvAQMYVjkBxcOVAztO7QHL05UAf/v0/BW6PP97xXECcIqVAKqEUQbGk4UCEZ/xAMTvDQMqOAkHqMDlBeBPwQGhc2UCuUZhANIseQTppPkFDLVJBvQkoQWT12UDHfhRBA8OXQWw/WEEhfTBBrE64QSsm1EESXhJCZnWkQV0GLEKnsghC3hzGQYLlu0HWtTZCFXEiQsrGdEJolmhCJFESQsG7JEKoBoJBfpITQnELPkLWz01CZoEgQl8wzUH1l/pBcxpHQhhwyUH/dOBBGBu/QVJJH0IHjoxClpJOQujpBUKoF9JB9gwnQr2bFkL094dCyqiWQmCiWELiD+9B9cksQt33BUI2hyxC0XTxQeiG0UH0/txBNHioQcoWOkKFiDhCMrz6QTlE+EFbdVJBY6ooQp454kFIOn5CNiPBQaW+6UE845NBPZqdQdXZ/0F7qtpAdsNeQWfgFUFLyghBJd5AQSM+AEGBJXNB4N4SQZtG9EBNwDVBkW2jQL0fHkGvYrRAIkKJP4FIzUCQkctA9t+/PzbipkAczppAroy/QPnyv0CXJedAP5q1QDEKGUEFbuRAuF3NP8tc5EAmGw5BvpsCP9ITzEA+lps/kyrZPkfh4NQ=</Data>
+   <Data>eJwFwW1IkwEUBlDnVs1IXGhkzAVqZctyIUlSvvc+aM7KVtnHGvpjWEnaMkmYJVSMZRpWfm42zaIkKM2otFJsk1CkGKUzXTTGErWNBDGQKGUlndN1T0lFzSbKWzUqCH6PsLL5lRD7QkaL4fPCYUUkOc/vptypL/R8wU6+gEDJ2gj6eFxGFT0xVNiYSJazJZRXW0rCWxstvasnh6GeEkru0PKmHlJ7DvF38UPeFhxmd9Mf9ux3sUh8naNPuPmBRoaoWSsOquqgG9gJW5oUqvZnbJ6b4eEjQW6bFmP7Bj9bDC6eTI3Bro1xeKPQoeZGFpZitkA/72Nn8iaYS8uRmVEBr9wL914TZsJyIH+6Dh35V6BQvcTj292YaM3EDkM8Qu7KILLWoszWCX1bN8aDFhQFLmBo8AxMI81Qz9ZAlGRB6pgBiXFqHHNroUQGzvWVY8F3ADcXjHBMG3HZKUWSSYt81R6cElKQ/mmSk+Dn2Nh0KFbEwyfMsMv+npf6h7jSFuAfnd/4ZFeQjQkSKCLVeDIQhn81dta0h2J1pZcHGn+yz/aVs/UNXFycy476Qb4aGgrp61/86P5vzs5pYOlYFUdmuTlRI0Kv1sujcx1c9nmeT/euRfV4IfdXN3D2YiW7dBf5Wss+XiO5xBKzlbdGt3LaVAF/6Evnrjbw0K069q7P5JBwMY/V2Uipt9KI0U4FjijmiM0kD5dTSpiGLH8DQkuVR5g4uoz+A2no6Ow=</Data>
 </DataArray>
 </GIFTI>

@@ -11,7 +11,7 @@
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold_khanlab/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 ]]></Value>
       </MD>
@@ -33,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-1k_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-1k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-1k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-1k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/srv/trident2/.work/scratch_khanlab/out_multihist7]]></Value>
+         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -53,7 +53,7 @@ Compiled with OpenMP: YES
            DataType="NIFTI_TYPE_INT32"
            ArrayIndexingOrder="RowMajorOrder"
            Dimensionality="1"
-           Dim0="1104"
+           Dim0="1299"
            Encoding="GZipBase64Binary"
            Endian="LittleEndian"
            ExternalFileName=""
@@ -64,6 +64,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[]]></Value>
       </MD>
    </MetaData>
-   <Data>eJztl0sOgCAMBYvI/a8sGxJDKP0Cipp06Qx9BYkAACHXgVT9hEZh78ZcZ1UYA2NFBecQsjg8rL/Y4SYFs+a2mL1ZWNjUmik2lXFZ+0i+B3vU+qn9wp2vtZfkPAurx9JPutXv8HNo97Jk5trz7pkVJy/PPt7uwDy7ODj3iNYjuUckfMzhmdVqBycvi2PGPHZxeHtm3SErHFy+xCH5n3rSd6rF/xpXk/GIPeHVM/cs9NY0kkHlQmUACLM8FwF3CSY=</Data>
+   <Data>eJzt10ESgCAIBVANvf+V2+RO8CNomS6YaZMvfgxTMYQQwbqEoqcSU6ghOfQRJxsdqpS1H64P79wsM4A6kuHZD2pIlrfTO2+azHZw8sIOlxm6d3r7yQrHkpvGQfqRdo9nP5zjmVtrFrxyQ9/RSo5krepI83CcvZza/pk1bxqnx+r9vj7OOMc61390tNZxdBa3e2Y4mv/g2U7LesMho6O1aJBTy2+EUZxy7fXcqXEe8lyX4Zxy3w13Twq1</Data>
 </DataArray>
 </GIFTI>
