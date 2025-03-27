@@ -1,0 +1,6 @@
+{
+    "label_wildcards": ["hipp"],
+    "hemi_wildcards": ["L", "R"],
+    "metric_wildcards": ["thickness", "gyrification", "curvature"]
+}
+

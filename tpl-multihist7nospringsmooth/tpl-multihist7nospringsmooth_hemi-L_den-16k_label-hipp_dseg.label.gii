@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+wb_command -volume-label-import tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-L_space-unfold_den-16k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-L_den-16k_label-hipp_dseg.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_nospringsmooth]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+      <Label Key="6" Red="1" Green="1" Blue="0" Alpha="1"><![CDATA[DG]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="16467"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2sGO2zAMBNA0m/3/X24LrAHXtWVbJjlDcgToEt9eBiPKyeulNbPePxuxfpHud9D+/Nlfg/0x2KzWb4D1yLuydaTze2As69hMd7CO8F5b7PlaOct6nGsrY3brN8B6693Feu3tab429eppWe93c+dce3ZJxJz3d3//bEbrrYmH9ZlzZ2uEt6Xz2lrevn3d0XtxRHgzn5GI87CjNdo4Yvar5v3EOOJew+LN0CGd8u3hvXZHd3g3b3TGO3nPmss7Z74Z7znylre8c3Y3o7enOXr2ZvT2cpY3d7Y9uoTN27O7kflm/p2Bwdu6R9jy7Z3rmXx7WMs79qxk8I6yVp/EWqtPePNd1Zs53xXnQXZvK/Nu3jPOHtYdvGetq3l36xHkfzRlXc9Z1vzeHs6yjst0l/PxjreFNZs3Ot+j78DTusO8HeX9Le//XK/0i0emu3qv3eUt76re1vPJVWu0N7LDLd0zeUeYX51N1tZ3zOV97H6nZzx6pYP3Xr6v5tzLu4P1nf726PCO1h4ziqzjrK94o60jvNe+DH3d1Xvk7pltlHeE85OcV8s3g3dkpyC9EdZbX2vvM3OkNzrfV+eUKvlmMZe3vDubyzs233fM5R3bKfLmMu/sjegUecub1dxiTpF3bMa7e3uZy5vLu6u1R4fLGp9tWcdbI73R1jPumb2ZzL1nQbQ32heVb1n733Fk7WM96hFZ1+4QNu/KHSLrvt7VO4TJ+oq3cs3XI7JWrpm8Zc1jXeEdVDZzecd5W3SJvGO95SxrNusKvY329ci3vOXN6l69T9i8n+b77D878u6Xb7SxZb7lbedd5V6J9rXMtrztvC3OS1nb5ps922zmT/KtbMd2yZ45i3Um79lzUtY+znveTNYZvGedZX3P+kmmGWcRJu+n1vLGZltdomyjnY+8q70jYfG2uNNkyXcla3k/s36abUbvDO6V7pRIa+98yzrOW9b3nKu8A5R1H2vLDslwb69irVzbeFe507CYyzund4bZD+ndrbfR2ZZ1fm9Z+3WJch2T7Sx3GhZzL2t525sr29jelrWf85G1vO17e89c1r7ZzmaN8L5ifddb1v7O2awjvWXNl++q1ox9PWudwZst1zPztrzjujujd7S9dafIOi7fso6xzjSTIKytvWUdb53RO8r8zhx45p7dm9Fc3vKu6l29v9m8lW+ujMs7NuPy9jPf2me+V0Y7z3rrXunj/rlgjXar4rx9Jmdb58/B88X46/XvQvtlch657rkvn1WzRn0nR8571pW8kXuU7YydjfY8sz76PJszs/WoR5aFtqvifWaNNqtkfdQhWZ3RlmeZ3lovC+1W1XptntWZ2V7OuP5YFtoou+3WU+v5+g2hF4F6</Data>
+</DataArray>
+</GIFTI>
