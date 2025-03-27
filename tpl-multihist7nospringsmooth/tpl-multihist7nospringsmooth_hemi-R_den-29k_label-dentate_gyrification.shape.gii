@@ -26,11 +26,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_label-dentate_gyrification.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_space-unfold_den-29k_label-dentate_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_den-29k_label-dentate_gyrification.shape.gii -trilinear]]></Value>
+         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_label-dentate_gyrification.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_space-unfold_den-29k_label-dentate_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_den-29k_label-dentate_gyrification.shape.gii -trilinear]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_nospringsmooth]]></Value>
+         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
       </MD>
    </MetaData>
    <LabelTable>

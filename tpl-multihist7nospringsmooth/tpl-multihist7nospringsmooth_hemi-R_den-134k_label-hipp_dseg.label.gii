@@ -10,8 +10,8 @@
       </MD>
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
-         <Value><![CDATA[tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+         <Value><![CDATA[tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+wb_command -volume-label-import tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 ]]></Value>
       </MD>
@@ -33,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_space-unfold_den-134k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7_nospringsmooth/tpl-multihist7_nospringsmooth_hemi-R_den-134k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_space-unfold_den-134k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7nospringsmooth/tpl-multihist7nospringsmooth_hemi-R_den-134k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_nospringsmooth]]></Value>
+         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
