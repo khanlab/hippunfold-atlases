@@ -13,12 +13,12 @@
          <Value><![CDATA[Connectome Workbench
 Type: Command Line Application
 Version: 2.0.1
-Qt Compiled Version: 5.15.2
-Qt Runtime Version: 5.15.2
-Commit: unknown
-Commit Date: unknown
-Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
-Compiler Version: 14.2.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: aca5023171442608e0fde0cdc7876927116b3ec2
+Commit Date: 2025-01-09 13:57:37 -0600
+Compiler: g++ (/usr/bin)
+Compiler Version: 4.8.4
 Compiled Debug: NO
 Operating System: Linux
 Compiled with OpenMP: YES
@@ -26,11 +26,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-dentate_curvature.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-1k_label-dentate_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-1k_label-dentate_curvature.shape.gii -trilinear]]></Value>
+         <Value><![CDATA[/srv/software/connectome_workbench/dev/bin_linux64/../exe_linux64/wb_command -volume-to-surface-mapping tpl-multihist7rect/tpl-multihist7rect_hemi-R_label-dentate_curvature.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7rect/tpl-multihist7rect_hemi-R_space-unfold_den-1k_label-dentate_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7rect/tpl-multihist7rect_hemi-R_den-1k_label-dentate_curvature.shape.gii -trilinear]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
+         <Value><![CDATA[/srv/trident2/.work/scratch_khanlab/out_multihist7-fm]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -40,7 +40,7 @@ Compiled with OpenMP: YES
            DataType="NIFTI_TYPE_FLOAT32"
            ArrayIndexingOrder="RowMajorOrder"
            Dimensionality="1"
-           Dim0="137"
+           Dim0="306"
            Encoding="GZipBase64Binary"
            Endian="LittleEndian"
            ExternalFileName=""
@@ -51,6 +51,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[ trilinear]]></Value>
       </MD>
    </MetaData>
-   <Data>eJwBJALb/dRJNL+kjj2/9OWPvxaUhL/kLZS/YqJQv4DfOr8Ap1K/fSZpv5Ko1b/lgQzANtLsvu4ghr6OPsK+QDXpvhHfQr80Sq2/zEexPrbem76jFfS+y1j+vpbPLb9/5bW/XUSlP2Hm7b4SiTi/PW2zvi1IxL92yxG/6AdavRHaAb37WPK+YcbbvhaBur3XvT2/57oivh2kF72vwoY9YrYaPlPLTr6t+dC+wKFWvkk0xb49ir095HpAPUZgXL1T8cC+G7tuvTnkjL4V9xe+FwwhvtOVGb9QmYO+xh6FvupBpTvHABW+5gOSvvvVRz0cTaK9VNi4vjjiLb7aTQG/ypC4vFNqxD0IbOG+shtIvoUqJL/8Y6Q88zCVvtxiFb4Huga/DWvXvbIPCz2y9iS+dVEYPHFaib61oZW/ODXZvmDS6b07A4S9f2YyvlKcYr875V6+pffnvxN+Hb6biIg+mU1mPeRla7/v/7S+dYAdvzVkqb7SMt6+hK0Jvyv1R7+0IAa/iqyOvz3U7L6kzvW+YLU4v7xnib9AsIW+0q8Lv/66eL8bSTq/vxUyv5CaYr/yTJ++5o0gvxRxlL6vCFO+OyYav1h8jb+EkTG/gS85v9YHFr+VQQa/saI9vyc1ar9t2qW/ki43v8CHeL+urnG/1/6lv6zDTr/Htxa/oQjrvibt3b5lWy6/PIiavz+INL9QHFK/j10Cvx+ndr8hrzW/7BRYv4/LEcCt+aS/D7cmlg==</Data>
+   <Data>eJwFwQs01XcAB/BCSobyDqnDOk6Yhtwi9/+/9LgnFUW50XpNhlyvrZxFiuvNHOFqeaZdxi1pRdrk/r6/n6LXOordoVoPWfPK1i16nGSfj1NAKF816cjqmjSsyXZ+h91EJWt0yWcvBdncU/dBKle/oQ0RPXRzUAwbcHtAbW0UvE1kJqxbN9OQ8REW8FDDLJflUZnpEkJ/bSOsy8hnjnM/C6t8xK513GUfrLbyWccvcsfLQkXn9NTs3nk1S5aqWe6sbI46+3JSVsHx9TN8klM8/1m5mLkmD3M0oxCZ55pwr2GIdzghFflqMvBsyfd0RlNBF+pr+exCsujT0xiRcr2l6L2ufofETatjQEfNJk9EqZTGbnxRcyNyvrpO+/oIHdInND0/nEqHt9OW0p20vdWd2RlVo+b279Qr24jFagyZ26r5TCFMZ2eQztZbZTCJYJr/bp5C+KbmoerBfDe21Xg/MwotYI0DN4nN8GVR99Uokdluc0SLbgkTSlzpNRNHOjeGoxWTi2hZZSMiSmfTR3Vf0vhKRxqeGkp7ClOozukUWMrGMfrLGHTLnalVlIg+HitAglYBZowfIuuL2bQobCX1WhgJL0clanMyce1ZFso8OuGXXY8F5zNxQ6JHz45rSEHKO7LtQjDM/z2M+r0CTuIr4RcJ9qGtQAftwalQCE4havINJjqVOLKMx8vVgaiqSYRH7R6wYSUM1gho8Q4nbO8yxvtUe5iWOcHEpBwFa57g45FEbvmL0+RT/lviFDhJDJKW4Hl4CP42Cudt1/C4JZWDZi1CusUh2MfsgLDHXxUU0kqUznKS/VILAc6DZGlTJYLsm7mR7kDv5rWu7R+O68NxrQxHfRIQkRdL4sW9pKVii7d8njb8DaQIzo/BsXoVaZzjQZJ3ibl2WSjXmplINhVawfpsH+l594zoZg+TuDJD1ecXEol/2wJ0+rhit+chMmFByHUHEeTdTarfPlaRkjFdlAU0kH6pL8T+2rAuv0iuqrUhCa/x0l0vI3d787w9lhZxk8d+IP1muVBZtQrPhRwm54tfCW83rPYu3uIChY8jLFoUuDTuwi0bqOXu2FSrWp5qQ2k9Dy1635C9AcVkym6E/BewFGoHO+z0eEvMZmUgmteQmf0OsD+2AaWP4iG3OEXqUgyhVqRh38QejAa3Yp3xUcTbm6jOROrhSbgpoXdlwgjH5+TAu2b8tW0FKou7yIHbPPS7XGDV8C3MFl/B0GgJSnh/aLlHwytuE8R/yBE5KkXM1o3YePk+aQ2+TMx7DEhYSScKpjtJ75gl3JPbiSR2ijBdF0iri/DWLwbOgT8izvMwxAlZ8BNMYdDoBUIzc1C4+D5afh7Ai25LHPlaC5rpONjF2aL0iiGIwwoEXcmDeVwxdj7OQ5v4IDxznXBysRg/rUrFye4i9L2SYaROhrC5a/GniSnm1Oaidigad9IycDU2FZdunMTU5EbYVFVDUJiD0oBY9H3cgObX8ViXuhw9fhJMDHmgf4MIK4I9caPHEztu5oE/uAmvawgJm06CQX4l5FUr6T83MyAd1CGbk+6RtPZP7aLeNBjuWUD/Bx1BjSA=</Data>
 </DataArray>
 </GIFTI>

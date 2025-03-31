@@ -10,8 +10,8 @@
       </MD>
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
-         <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+         <Value><![CDATA[tpl-multihist7rect/tpl-multihist7rect_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+/srv/software/connectome_workbench/dev/bin_linux64/../exe_linux64/wb_command -volume-label-import tpl-multihist7rect/tpl-multihist7rect_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold_khanlab/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7rect/tpl-multihist7rect_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 ]]></Value>
       </MD>
@@ -20,12 +20,12 @@ wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_
          <Value><![CDATA[Connectome Workbench
 Type: Command Line Application
 Version: 2.0.1
-Qt Compiled Version: 5.15.2
-Qt Runtime Version: 5.15.2
-Commit: unknown
-Commit Date: unknown
-Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
-Compiler Version: 14.2.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: aca5023171442608e0fde0cdc7876927116b3ec2
+Commit Date: 2025-01-09 13:57:37 -0600
+Compiler: g++ (/usr/bin)
+Compiler Version: 4.8.4
 Compiled Debug: NO
 Operating System: Linux
 Compiled with OpenMP: YES
@@ -33,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-1k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-1k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[/srv/software/connectome_workbench/dev/bin_linux64/../exe_linux64/wb_command -volume-label-to-surface-mapping tpl-multihist7rect/tpl-multihist7rect_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7rect/tpl-multihist7rect_hemi-R_space-unfold_den-1k_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7rect/tpl-multihist7rect_hemi-R_den-1k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
+         <Value><![CDATA[/srv/trident2/.work/scratch_khanlab/out_multihist7-fm]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -53,7 +53,7 @@ Compiled with OpenMP: YES
            DataType="NIFTI_TYPE_INT32"
            ArrayIndexingOrder="RowMajorOrder"
            Dimensionality="1"
-           Dim0="1299"
+           Dim0="1326"
            Encoding="GZipBase64Binary"
            Endian="LittleEndian"
            ExternalFileName=""
@@ -64,6 +64,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt10ESgCAIBVANvf+V2+RO8CNomS6YaZMvfgxTMYQQwbqEoqcSU6ghOfQRJxsdqpS1H64P79wsM4A6kuHZD2pIlrfTO2+azHZw8sIOlxm6d3r7yQrHkpvGQfqRdo9nP5zjmVtrFrxyQ9/RSo5krepI83CcvZza/pk1bxqnx+r9vj7OOMc61390tNZxdBa3e2Y4mv/g2U7LesMho6O1aJBTy2+EUZxy7fXcqXEe8lyX4Zxy3w13Twq1</Data>
+   <Data>eJzl10sOgDAIBNAq9v5XNia6MQVHPpXWBXH5MkCtLqWUBaxVKDprYwo1JIeSONXBIcB5k4czvPuG7MDXDjof1OjlcD3LlEcyPPNYnTqRU4Ocu/VnBzk/0j3n5aCZRnKk/Y50KNDhMs3meN0/WZyR59N6/2R0NL3Tfl//MY/1/PR0EGs2x2MPejpaK8LhZhTlaP9Pe+d5sr5wyOhorAin5UU6V1nyoJZ1Phmd47kDK7IK1g==</Data>
 </DataArray>
 </GIFTI>

@@ -10,8 +10,8 @@
       </MD>
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
-         <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+         <Value><![CDATA[tpl-multihist7rect/tpl-multihist7rect_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+/srv/software/connectome_workbench/dev/bin_linux64/../exe_linux64/wb_command -volume-label-import tpl-multihist7rect/tpl-multihist7rect_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold_khanlab/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7rect/tpl-multihist7rect_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 ]]></Value>
       </MD>
@@ -20,12 +20,12 @@ wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_
          <Value><![CDATA[Connectome Workbench
 Type: Command Line Application
 Version: 2.0.1
-Qt Compiled Version: 5.15.2
-Qt Runtime Version: 5.15.2
-Commit: unknown
-Commit Date: unknown
-Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
-Compiler Version: 14.2.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: aca5023171442608e0fde0cdc7876927116b3ec2
+Commit Date: 2025-01-09 13:57:37 -0600
+Compiler: g++ (/usr/bin)
+Compiler Version: 4.8.4
 Compiled Debug: NO
 Operating System: Linux
 Compiled with OpenMP: YES
@@ -33,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-5k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-5k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[/srv/software/connectome_workbench/dev/bin_linux64/../exe_linux64/wb_command -volume-label-to-surface-mapping tpl-multihist7rect/tpl-multihist7rect_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7rect/tpl-multihist7rect_hemi-L_space-unfold_den-5k_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7rect/tpl-multihist7rect_hemi-L_den-5k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
+         <Value><![CDATA[/srv/trident2/.work/scratch_khanlab/out_multihist7-fm]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -53,7 +53,7 @@ Compiled with OpenMP: YES
            DataType="NIFTI_TYPE_INT32"
            ArrayIndexingOrder="RowMajorOrder"
            Dimensionality="1"
-           Dim0="5114"
+           Dim0="5202"
            Encoding="GZipBase64Binary"
            Endian="LittleEndian"
            ExternalFileName=""
@@ -64,6 +64,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt2MGOgzAMBNB0W/7/l1c9IFWoUDuZiT3Bh6gc/RjbQB+ttQfh/DnP8+K8jCezw2pgObwWhCOL5cyjaFklF8S8v88WaHmCLZG5XBmyWDx9lX1evPsrq6XHgdrHSEuvA2VB7zGkJXIno3NRtKD2clnmWVbqMaujAS2MuY/KhTUrVs8Gsoxkgsolu8XbX9EWZCajluj+2pqGxeJRsPT0V9Z5uZvl6Mj8rPQ6subyy8OysHIpS6zl+Bs5L8yZWWWPRVhGMhnJJqvlyqPy3EfPTPTsZ7NEeVaxsHYye27UckFkg7JEZJM5l9FssllGsikLzxFtqVzuYfnmsTwvyzK/zyzvy+oWxVxUd/JqFmuflaUsivOC9lgs2b8rM/RYhIWZC7vPZubCtMx8H4uyrJSLgqXn/0sVi+q8eL73y5LTstLsMy3MbGb32GyLQi6evVyW+1lme1ay7B6WBeHx7uWylEV5XhgeVYv3fZltGfF4v2MULWeeGZZZnlmWXs+V5ehRt3yaslusHhWLda8pWc5MURZUPq8v1wr3f6+VUTOyvr3G6Pt33O+jdaHyRNbEqCvTfdqvo3v87PwDmKgqQg==</Data>
+   <Data>eJzt2MEOgzAMA1A24P9/eadKCEHXtE7iRDkgsRtPdlLYZ9u2j8L1FV575zoGLwbHm2fUoGlB5pLFEjWX1Y6dRJaVXE5FCyKTiPPS28XeFtSZwjD7qLMlWi5IB4sFcb6g9xi6X9K9zGzxymXWkcmC2snMFqkjiwWZi0a/JCZkLhpzP2o5N5xFyyGdFW8LYl6yWM6bx9OBsCByQThWZwZl0ezYzKxEttwdZcF52rM/maQOllyk+TBaerlEs/zby9Ess+dLpNmPakHNjKcF3TNvB5PF08Nomf1OZrRkyuWfpyycljcPs0WajYaFpWdslpVsypLXgnR4WzLlYpVNREumeZHkcvVEt7B37Mljde5XLpy5WGUT1eLZMQtPZovWt1jlsrbHKpeylIXDgvR4n5XWFs09hvLM/t9XFv2eMcxLNotWz6JanjxlKYvH/FtYrLKxsiA8kp4xO0YtzRPN0suGuWPSdzJWR1l4PZJ3fwvLikf6HRPR8uaxsFh5rCwWXYtsuZqsZn/VMmKKbLn+jtSxnqk5dmML0tOe3ysXpOd4uLc2oLPx2skaPTsu9xksmXLJYLn3LIOl3f8Aengqhg==</Data>
 </DataArray>
 </GIFTI>

@@ -10,8 +10,8 @@
       </MD>
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
-         <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+         <Value><![CDATA[tpl-multihist7rect/tpl-multihist7rect_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+/srv/software/connectome_workbench/dev/bin_linux64/../exe_linux64/wb_command -volume-label-import tpl-multihist7rect/tpl-multihist7rect_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold_khanlab/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7rect/tpl-multihist7rect_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 ]]></Value>
       </MD>
@@ -20,12 +20,12 @@ wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_
          <Value><![CDATA[Connectome Workbench
 Type: Command Line Application
 Version: 2.0.1
-Qt Compiled Version: 5.15.2
-Qt Runtime Version: 5.15.2
-Commit: unknown
-Commit Date: unknown
-Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
-Compiler Version: 14.2.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: aca5023171442608e0fde0cdc7876927116b3ec2
+Commit Date: 2025-01-09 13:57:37 -0600
+Compiler: g++ (/usr/bin)
+Compiler Version: 4.8.4
 Compiled Debug: NO
 Operating System: Linux
 Compiled with OpenMP: YES
@@ -33,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-12k_label-hipp_midthickness.surf.gii /home/bic/jordand/.cache/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-12k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[/srv/software/connectome_workbench/dev/bin_linux64/../exe_linux64/wb_command -volume-label-to-surface-mapping tpl-multihist7rect/tpl-multihist7rect_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7rect/tpl-multihist7rect_hemi-L_space-unfold_den-12k_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7rect/tpl-multihist7rect_hemi-L_den-12k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_template_new2]]></Value>
+         <Value><![CDATA[/srv/trident2/.work/scratch_khanlab/out_multihist7-fm]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -53,7 +53,7 @@ Compiled with OpenMP: YES
            DataType="NIFTI_TYPE_INT32"
            ArrayIndexingOrder="RowMajorOrder"
            Dimensionality="1"
-           Dim0="11634"
+           Dim0="11858"
            Encoding="GZipBase64Binary"
            Endian="LittleEndian"
            ExternalFileName=""
@@ -64,6 +64,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt2MFuwzAMA9Bubf//l4ceCgRGssSxTIoyC/iUS/xCyXIfj/V+P+T1G7yeJ+sVsNS9zowqOEXnC+G1mlmlnKFq0znrM4vyehfxulKTEW5vm9kMYKZem18HtFmGM2A0Vz1mFWaNiIytZBY1X1x1i6rLKmbIXsYyQ2dM3Sza64pbpBdj1mCYqd+dbKZjpnwPYFhF3zlXMnPO7uVs1A5txuxlqrVpsxxuaC+U2ax8od2qmKH7v836vRBmFbzQOctiNuqFMpvd+3vcIqwq5KyiWRYvm2Fz1nrNNMvkZTObZTbb81LvZ4yMrWAW7bWCWXRd2qzfS/1/jYq1OdOs58zs8TvLmLLZHbsIr5XMojJmM5tV6mcz3aLnjRXMZrhVnTWOvP4z9Ew7z8w5iz8H1M1aowgzZs5mW905C7Kbod2qmCHdULOtzXKaodxsNs9s1M1mec0U3WxmM8RZsJJZlFsGsypZq2p21S27GdKrghnaK8psz62y2aysVTe74mazGmZMrzOzzP2MZafcz5h5U82Za1PH68zNZnXM2G6qdyemm2I/s5meW6TXKjkbyRrbTLU+babVzxRrc9X5TLmf2ayGWeZZI2ttZjZju6maMd1UZw2babkp12a2rDlnmKytbuac2QzhpmKWKWsqZlm8lMxYbjYb97JZv5fns9pm2bJms9iM7blV9orIWKac2Sy3m83wPW1Fs9GsZTLLkjWbze9pK3iN9rRMOUOajWTNZuM9bZV+duamkjOb1TVr7dhmDLvRnsa2QptFnANsK5vld4u4D7CdUGZn9wBFM3bGFM0y2KmaIdwqmbHrU9Fstl/EOZDVjHUGKJsxc3blvs62yZi1Mze2jc3y2101+8+ObWKzmmatH9sEbXbHrTVkm7DcvnY9jtlnjdled7KnYoZy6zkH2B5ZzLZu277fmj0TeGTxau2O3DLXJiNbr53nbKPve8x2OepH3+fsvCD2ve0nqH2jvu9R3vf2q/w9t/s4WltvpT1d2d/n2ay8svfX1ory/rZ7RNQea2+vx7y9zXzfmTljfpd2fc6Cz+8PmbxfzQ==</Data>
+   <Data>eJzt2Ety4zAQA1Alce5/5dnEFZUykkiq2QCaWLASe+dXQPPzsW3bB2Btu/8/g9ZX43pdrO3m8wvktV9RXq1uV16tazWzCLfVzJwzm9nMZgpms72+f1Yls5lu37u/lcwyzhlVzFrP/6vPsx6nSmZZ2bLZrxliniHNovfLjLNGNbOsjFUyy8oZ6qwxwysrazbTMEN6PTVD3TdnmTln/VYZZoicITsZlbEKOcu8M1XrZlUz5dm/4jyL8so0Q2YsYr/cks1mefWYPbXLzhmLWYSXzTjNZnpV3ANme7WaRXrZzGaz59hsswyvmWZnXquYjbhVNkNkTX2etZipdJPFLHK/rGKWPcsq3ANmdBNtluEWaXbnpW4Wfc5o8VI3i3ZbzezOz2Z/3SLmGovZbK9WM+cMuw+sYhbpVsksop/VzY4md9lTMsvKWktnI9wqmP3Pbeb+WcGrZy9QyVmGWY+dzWzG0k+bxd49VzRzzmrOM8Wsoc3YcvY0a9VyFtVRdM5YzUY7WtUsIms2s5nNbMZiNssty4w1a86Zu5lhxtxN1DyLyNtq88xmc8xYu8naz5H3jRXMnmTMZlpmjL202Zx5ttqZVtkM7aVoxuBmsziz3juAzZyzUbMrO6QZ2k3VDOmm2E2b6Zmdudks3gz9rsHopmCG9BoxW72bqmZIN9U9QM2MYZ7ZTMtsZJ6tbuacPfca3QcQZgg3m+V5MZllul2ZMb9ts5o5Z7EZW9WsWs5Us1bdK8JsxZxdubmbNsvqp81sZjOc2ZOZxmbGkDU1s8ycjbqxmSlkzWZ9ZmxvQUpuez+0U7ZZxJkD7WQzbrOoNyG0k1LOVjO7y5iimUIv2cxU3FYz8zxzzrL83j5nhjY7z5nN4vrZ8saBtmE0u3ND22TbtZpd2aFNbMZv1utms7G5drRDmyj085g5tAcqZ0+6ijZBdnOkp8znM6a8vTupkrNMszNDlXsA2u3svKFklp2x18FP0Szbbp+t/WebtZu9v1M0y3I7M1PaN5E5U7tvspm5m/1mnwS/n9Xsyg39+5ndKpll5ezo9v4O/ftZra7WP4Z9YQg=</Data>
 </DataArray>
 </GIFTI>
