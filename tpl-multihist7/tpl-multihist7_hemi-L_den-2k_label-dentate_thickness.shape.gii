@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-dentate_thickness.nii.gz /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-2k_label-dentate_midthickness.surf.gii /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-2k_label-dentate_thickness.shape.gii -trilinear]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_newatlas]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="512"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ trilinear]]></Value>
+      </MD>
+   </MetaData>
+   <Data>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</Data>
+</DataArray>
+</GIFTI>
