@@ -11,7 +11,7 @@
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 ]]></Value>
       </MD>
@@ -33,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-native_label-hipp_midthickness.surf.gii /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-native_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-512_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-512_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_newatlas]]></Value>
+         <Value><![CDATA[/local/scratch/hippunfold/out_multihist7]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -53,7 +53,7 @@ Compiled with OpenMP: YES
            DataType="NIFTI_TYPE_INT32"
            ArrayIndexingOrder="RowMajorOrder"
            Dimensionality="1"
-           Dim0="18432"
+           Dim0="512"
            Encoding="GZipBase64Binary"
            Endian="LittleEndian"
            ExternalFileName=""
@@ -64,6 +64,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt2euKGzEQRGF77X3/Vw4LMRjj8VysnuoqnYDIYkJ+fKdHmpWvl8vl2mD9vFmXhc9HrbX//7awLguf39+s5z+vn98buC/Zd1xLPd65b13Yv3feau/q/9PI/5PtbcO/cfNXe+/1X1tO/mrrig74axvgr+nwjTv+Wv/f/+sscyf7RH+3Vb3v4D+Hv9pxVn+1X2d7/Pe7jz53K/3VjpX+o+Yef43/awP88/xdG6TsP8n+3zR4tcf/mP/RBvgz/53XmXOP/3nz/7C+4D/F/KsdO/n/rjTAv97/UwP2n3P8mf/z/dfsmf+8+Vcb4u+7Rr7/b9l78M/zd26QcP6qDZl/vePM8+/qP/rujfN3vL2Df3oD/LUN8PeYf87f8fYu/m4N0s5fN/89HfbM/5YO+OPfZbH/ZNjjX+M/+u6t0t+tQcX7p3L/T/Rn//GZf7W/WwP2f/1Kmn+15ez+jg3S9h+3Dop3IPzx77Lwx39W+60N8Gf+8cffwX9LA/z3+Y/+Hbja36nBw3etBf46f7f9383/tQX+Gv+lBvjX2Se+f7r4VzTAH38n/9EN8K+xd/JXm1Z0uG9osMWe+f/uOXCYf/zxr7DHv7//lgb41/hz/tY3YP/BP9F/awP8e/tz/uKvdlT6q/cftWF1A/z9nwH8jzdg/9c/A/jjn+z/bQP2/3n9Z2nQ1V9t1uEZwB//lFWxB7H/Z/qrrWb3n61Bx/0/qUHV7wD4j2mAf1//Tw2wH9Pg6F0081/vz/tPrX3H/Udt1Wn+FfuP2qnbM8D8z+Wf2mD0PSj2mfOvdjrbn/OX+cef+Vc2wB//GRq4+Kc2GHkG45/tn9jA4f0/1X7tGejmn9jA4fev5AYO37+k+rvcP8zWoPv8J3Vwev/Bv5+/ewP3/efh79zB3d/5OXC6f0v0X2rgOP+uDVLmH/8eS+2Jv99K8ndq4Hr/k97A3V9terZ9N3/nBgn+atPZ/V06JNy/4d/TX207u79Dg3T/7g0Svv/Cv6+/2hf/3ivZX217tAH+2gYJ/mpP5l/vOvP8uzXAv4c9/voGKf5q0yp/l/sftSnz77MS/V0apJ6/alf8PVaqv0uDI/7vGqitHf2P3j/jX2OPv74B/v39OX/rGuDf35/9h/lPaZDu79AB/x7233wHoPZ187/h32LN4t+1wUz+HRvgj/+s9kv+aw1c/bs1OHoHjT/++Hv6OzRI9+/SYOR3kGpPN/tP/kfu4dSmaQ32PgNqT1f/Tx2S579bh2+fAbXjrP7Mf439nnPB2b9Dg4ftliZLz4Ha0Nl/aT1sX/2fO/wG+Hdu8OmZefyctP9cn/7u2OX+5rM//3+Gs5vq</Data>
+   <Data>eJzt1UsKACAIBUDtc/8rtykQMdJIiWjxlqMWgggAyJImyT2FRGtpjZnXWOqrsb+3t8xfHbxl/u/jfTrod/ZXekO053/wmrfugOQ1e/i9r1/dwRu8dH+1NYZvCQ4EWQ==</Data>
 </DataArray>
 </GIFTI>

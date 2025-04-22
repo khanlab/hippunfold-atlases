@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-dentate_thickness.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-512_label-dentate_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-512_label-dentate_thickness.shape.gii -trilinear]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/local/scratch/hippunfold/out_multihist7]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="128"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ trilinear]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJwNzGlLEwAAgGE0ry4qazCwa9EksztWfVDeSersGGOF2SEzNEnNydbCjY2Ym+IwjLLasCyazUyzGRYpaSeTHJViUGaSrSUTEwvaSGsg1PMDHkedmJLwfmIDUaQ2rEXXdYTpWSt9by20xzTS3G6mJX8fkdE5FE2p0O89j0VpQONT8XhkFx9XO0FrYmV3OYfT5UzaNSTJO8k6XUnunXO8GzESLzGR0hsgw7+KxI4zDBzNYjCQwXXvQfJ3y1ggKaZy1o63OQ1N6DgO4QYm7kZxw1uEq+cQtY0PMb3JJHq0BttWNU3uTdgkIiq21JJXpSdem8y6ZdksD9pY/y2bhIbNPHiZxNVYN5n/jy5VLCdmFEx8eEH9aBMd81JxVORwucfLijkuhoIypBE1nGr1M/9SC56/UsL9StqDPuISh+jTyhksVfPk5gx7ij8z1x/D2D0rJQN/EK/p59oSE+OFx+hJmKZQ7EFfuhFXWymtIg+5wjZSwoupF0oQO4fxLnRx4LeNboOeT+Nf2OmpwVhRhq5AjaUsUjoht/LreS4RgW0YnFpu69KpTn7Ke8kVFKm9vLqgZLJTwJjBwqKvbuqsTmRVCoab7JysdpNmLickKGa7wIcu4hGi13mEps7iv99M3NIC2n5UYf4ZxfdnRi7e2sE/RFTfFQ==</Data>
+</DataArray>
+</GIFTI>

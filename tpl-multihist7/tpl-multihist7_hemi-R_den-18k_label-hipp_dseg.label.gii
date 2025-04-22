@@ -11,7 +11,7 @@
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 ]]></Value>
       </MD>
@@ -33,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-18k_label-hipp_midthickness.surf.gii /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-18k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-18k_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-18k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_newatlas]]></Value>
+         <Value><![CDATA[/local/scratch/hippunfold/out_multihist7]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -64,6 +64,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt2euKGzEQRGF77X3/Vw4LMRjj8VysnuoqnYDIYkJ+fKdHmpWvl8vl2mD9vFmXhc9HrbX//7awLguf39+s5z+vn98buC/Zd1xLPd65b13Yv3feau/q/9PI/5PtbcO/cfNXe+/1X1tO/mrrig74axvgr+nwjTv+Wv/f/+sscyf7RH+3Vb3v4D+Hv9pxVn+1X2d7/Pe7jz53K/3VjpX+o+Yef43/awP88/xdG6TsP8n+3zR4tcf/mP/RBvgz/53XmXOP/3nz/7C+4D/F/KsdO/n/rjTAv97/UwP2n3P8mf/z/dfsmf+8+Vcb4u+7Rr7/b9l78M/zd26QcP6qDZl/vePM8+/qP/rujfN3vL2Df3oD/LUN8PeYf87f8fYu/m4N0s5fN/89HfbM/5YO+OPfZbH/ZNjjX+M/+u6t0t+tQcX7p3L/T/Rn//GZf7W/WwP2f/1Kmn+15ez+jg3S9h+3Dop3IPzx77Lwx39W+60N8Gf+8cffwX9LA/z3+Y/+Hbja36nBw3etBf46f7f9383/tQX+Gv+lBvjX2Se+f7r4VzTAH38n/9EN8K+xd/JXm1Z0uG9osMWe+f/uOXCYf/zxr7DHv7//lgb41/hz/tY3YP/BP9F/awP8e/tz/uKvdlT6q/cftWF1A/z9nwH8jzdg/9c/A/jjn+z/bQP2/3n9Z2nQ1V9t1uEZwB//lFWxB7H/Z/qrrWb3n61Bx/0/qUHV7wD4j2mAf1//Tw2wH9Pg6F0081/vz/tPrX3H/Udt1Wn+FfuP2qnbM8D8z+Wf2mD0PSj2mfOvdjrbn/OX+cef+Vc2wB//GRq4+Kc2GHkG45/tn9jA4f0/1X7tGejmn9jA4fev5AYO37+k+rvcP8zWoPv8J3Vwev/Bv5+/ewP3/efh79zB3d/5OXC6f0v0X2rgOP+uDVLmH/8eS+2Jv99K8ndq4Hr/k97A3V9terZ9N3/nBgn+atPZ/V06JNy/4d/TX207u79Dg3T/7g0Svv/Cv6+/2hf/3ivZX217tAH+2gYJ/mpP5l/vOvP8uzXAv4c9/voGKf5q0yp/l/sftSnz77MS/V0apJ6/alf8PVaqv0uDI/7vGqitHf2P3j/jX2OPv74B/v39OX/rGuDf35/9h/lPaZDu79AB/x7233wHoPZ187/h32LN4t+1wUz+HRvgj/+s9kv+aw1c/bs1OHoHjT/++Hv6OzRI9+/SYOR3kGpPN/tP/kfu4dSmaQ32PgNqT1f/Tx2S579bh2+fAbXjrP7Mf439nnPB2b9Dg4ftliZLz4Ha0Nl/aT1sX/2fO/wG+Hdu8OmZefyctP9cn/7u2OX+5rM//3+Gs5vq</Data>
+   <Data>eJzt2dGK40oMRdGkO/n/Xx4aJmCCHVfsko+OtC8UdwjDPKwty45zv91u9wTnZ+XcNj6fdfb+/d+Nc9v4/LFylv+9f/5I4L5ln/Fs9VhzHz3YrzuP2rv6/yTy/2T7O/B33PzV3t/67x0nf7V1RAf8tQ3w13Q4446/1v/5/1xl7mRf0d/tRO8d/Hv4qx27+qv9Mtvj/7377PtupL/aMdJ/1tzjr/F/b4B/PX/XBlX2T2X/Mw3e7fE/5n+0Af7Mf+Zz5dzjf938v6xv+LeYf7VjJv/nTgP84/3Z/7381Y5Z/Pfsmf968682xN/3zHz+H9k9+Nfzd25Q4f6rNmT+9Y6d59/Vf/a7N+6/8+0d/Ks3wF/bAH+P+ef+29ffsUGl/e/oP9rgm/kf6YA//lkO+6eGPf4x/rPfvUX6uzWIeP5U7v/u/ur5V3t293drwP7Xn0rzr7bs7u/YoNr+ceug+A6GP/5ZDv74d7UfbYA/848//g7+Iw3w/85/9nfgaH+nBi/fvRb46/zd9r+b/3sL/K+f/U8N8I/1r/b86eIf0QB//J38ZzfAP8beyV9tGtHhMdBgxJ75P3cdOMw//vhH2OOf33+kAf4x/tx/4xuwf/Cv6D/aAP/c/tx/8Vc7Kv3V+0dtGN0Af/9rAP/jDdj/+msAf/wr+59twP7v69+lQVZ/tVmGawB//KuciB3E/q/pr7bq7t+tQcb9X6lB1HcA/Oc0wD+v/6cG2M9pcPRdNPMf78/zT6x9xv2jtso0/4r9o3bKdg0w/738qzaY/R4U+5rzr3a62p/7L/OPP/OvbIA//h0auPhXbTDzHox/bf+KDRye/6va710D2fwrNnD4/lW5gcPvL1X9Xd4/dGuQff4rNXB6/qnYwN3fvYHz/ln6O3dw93e+Dpzev1X032rgOP+uDarMP/45jtoTf79Tyd+pgev7n+oN3P3VplfbZ/N3blDBX23a3d+lQ4X3b/jn9Ffbdvd3aFDdP3uDCr9/4Z/XX+2Lf+5T2V9te7QB/toGFfzVnt3nX23aff7dOuCfwx5/fYMq/mrTKH+X9z9q087zr/bs7u/Uoer9V+2Kv8ep6u/S4Ij/WgO1taP/0ffP+MfY469vgH9+f+6/cQ3wz+/P/olrUGn+HRpU3j8uHfDPYX/mNwC1L/65j9q5u3/WBvjj37lBJ3+19aj/XgNX/2wNjr6Dxh9//D39HRpU98/SYOZvkGpPN/tP/kfew6lNKzUYnf9lA7Wnq/+ZPeQ8/9k6nL0PqB27+jP/cftntImzf4YGL9uRJlvXgdrQ2X/rLH2X/ssOzwL+mRt8umZef660f+6L/2fs8lj57M//H21Pm+4=</Data>
 </DataArray>
 </GIFTI>

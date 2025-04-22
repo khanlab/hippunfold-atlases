@@ -11,7 +11,7 @@
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 ]]></Value>
       </MD>
@@ -33,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-2k_label-hipp_midthickness.surf.gii /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-2k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-2k_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-2k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_newatlas]]></Value>
+         <Value><![CDATA[/local/scratch/hippunfold/out_multihist7]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -64,6 +64,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt17EWgCAIBVDT/P9fbqmlg0UPhAoG5guIWEspZWFGBaPtsRIxy25EoL607pHN8VGb4/eJ9t25z/Y5vbfyqRy6c/2efg/mn3OI5nv3P33Mn/X2pZ++pY/uP6lfCTtK/VczkH4Mv77Ib0F96gwsvj+4M+BR/1d87f5TM5C+zx3w8JH517wDqK+1hyW+xlvs7SPz9yZfkoNG/9NPP/1/+Gv6kI/moHX+El/j/UFz+Jv/NIfRP5CVP5pB6/rPfZD4kn1wxAYfDxFo</Data>
+   <Data>eJzt1zsWhDAIBdB8zP63bDPTeHBkHiSovIL6AiFBaymlKqOB0T+xCTHL7kKgvrXuM1vjo7bGHxPtq3Of7Wt6v8qXchjB9Uf6I5l/zCGbH91/+pg/a/fRp7/SR98/q98EO0v9v2aAfg6/3cjvSX3pDFZ8f2hnIKL+p/je/ZdmgH7MHYjwkfn3vANP9b12cbSPzN+dfEsOHv2nT5/+O/yNPuSjOXidv8X32D9oDm/z/83h7B8om3/Mw+Jb3oNv7CuDEWo=</Data>
 </DataArray>
 </GIFTI>
