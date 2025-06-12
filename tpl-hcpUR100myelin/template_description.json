@@ -1,0 +1,36 @@
+{
+    "Identifier": "hcpUR100myelin",
+    "metric_wildcards": [
+        "myelin",
+        "curvature",
+        "thickness",
+        "gyrification"
+    ],
+    "label_wildcards": [
+        "hipp",
+        "dentate"
+    ],
+    "hemi_wildcards": [
+        "L",
+        "R"
+    ],
+    "density_wildcards": [
+        "512",
+        "2k",
+        "8k",
+        "18k"
+    ],
+    "Authors": [
+        ""
+    ],
+    "Acknowledgements": "",
+    "BIDSVersion": "",
+    "HowToAcknowledge": "",
+    "License": "MIT",
+    "Name": "HippUnfold surface-based template and subfield atlas",
+    "RRID": "",
+    "ReferencesAndLinks": [
+        ""
+    ],
+    "TemplateFlowVersion": ""
+}

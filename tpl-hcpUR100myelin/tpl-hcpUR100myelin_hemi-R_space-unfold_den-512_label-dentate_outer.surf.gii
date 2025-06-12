@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="2">
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_POINTSET"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="2"
+           Dim0="128"
+           Dim1="3"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[HippocampusDentateRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[AnatomicalStructureSecondary]]></Name>
+         <Value><![CDATA[Outer]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[GeometricType]]></Name>
+         <Value><![CDATA[Flat]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <CoordinateSystemTransformMatrix>
+      <DataSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></DataSpace>
+      <TransformedSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></TransformedSpace>
+      <MatrixData>
+         1 0 0 0 
+         0 1 0 0 
+         0 0 1 0 
+         0 0 0 1 
+      </MatrixData>
+   </CoordinateSystemTransformMatrix>
+   <Data>eJxNyiFrhVAYgOETVoSLRYNFWDQuLBoG97Jb/QkL/oQF49JgzWw2C8KCbfeeVbNgMxnMJ8v8YOectz3hUer0o96vv0o9vijx86u3uXh/n/+94q/4K/6Kf775f9j9w+4ftv/jy3+x/WL7xe73+D1+j9/jz/gz/ow/+39Td/fF9ovtF7sf48f4MX6Mn+Fn+Bl+hp/j5/g5fo5f4Bf4BX6BX+KX+CV+iV/hV/gVfuX/26f/YvvF9ovdr/Fr/Bq/xm/wG/wGv8Fv8Vv8Fr/F7/A7/A6/wx/wB/wBf8DX+Bpf42v8EX/EH/FH/Al/wp/wJ/wFf8Ff8Bf8DX/D3/A3fINv8A2+wd/xd/wdf/f/6UG7L7ZfbL/Y/QA/wA/wA/wQP8QP8UP8CD/Cj/Aj/AQ/wU/wE/wUP8VP8VP3/wCtDc4s</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_TRIANGLE"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="2"
+           Dim0="186"
+           Dim1="3"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#2]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJxNlQlTE0EUhAdFMIqAAeQ+haiRoEFQAgaQU5GABAgEFQUMCuEKl8Tzr/u69ttyqerqr9/Ozm7mzSylzrkS5/3JS003THdNFaZqXPmO6R5chyuH8WZTPa7cZKplXDVey72NjKnDGxn/w/TX9BNX/oP/DnCRvGv6atqB5dumPdORaR9XPjQdwN/wA+p6hxp+Sw25nvW4yZrIQwGuYE1CZPGg6alpAFeOm4bgAVw5YeoytZvacOX7cDNr0o63sX4NrFsD6yYu8FtO8AK/6xw+wZUvTJ9NH00fcOUteIs13CRvs4Z51jNPPmbN8/QgT96nN1emX/Tqito5fIEX4Rz3bvP8HJzj3b7gucD1PZ61S96nrznG78GqTZmmTeP4K3jMNGwahUfI2quV9LSSHIZDgfotsrwMDsHaJyXwNbyEejn5NipjDn/cdbwcfuC8vRHBlbVP1P9W5+2PJrgN1/5owVsZ+8z03PQCV+6HR6iPkIdxXdceHiTHceUEnGD8J+ftG/Vuh+zvJfEG/h7WWb503j4owhe4ruk78J0sXjW9M63gykumDHOu4RnmV68n6PcEecaUNa27//s/C2fJm/Am86yTV/BVOEPewDNc096ooqdV9FhcQw7jlbDeLcl7JsmjrGkSTsDDgXHj+Et4iJyglqR26rwzq29CgXyInznvLB+Rj/FCoBen8Cn9OIMvya9Z2yn4DTlFn5Zw5XnGpBiXIs/Dc9TnyAvwW9MsPEsfF8n+mEXG+fdPoznGp5lzCU9z7yrs76U0tUl6McMzJ2H5GH2ZIIujzjubEVz5sWmZedfgNHmZd16gtgzrXPY57+z1kZ8wVx8chVXrIUdw5Ud4t+lhIIt7TTE4xjWf9X8rDveSYzwrCke5p58c53qMWqfzvjn6/nSQW3B9v/xvVCfcDXfwjp3UuuAI3gP/A93qimo=</Data>
+</DataArray>
+</GIFTI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[HippocampusLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+wb_command -volume-label-import tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /home/UWO/akhan488/hippunfold/hippunfold/workflow/../resources/label_lut/labellist_withdg.txt tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan_new/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_space-unfold_den-18k_label-hipp_midthickness.surf.gii /cifs/khan_new/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_den-18k_label-hipp_dseg.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/localScratch/akhan488/hcp_hippunfold_test]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+      <Label Key="6" Red="1" Green="1" Blue="0" Alpha="1"><![CDATA[DG]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="18432"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2u1qpEAQBVCzm7z/Ky+BXViCOjq21kefwIUw+XdudTk2+ViW5SNBfiXM740sG59/ruT/n7W/c7/WxZ79kbDfdr7bPtI/2vmdGe/gH23MP2/4x+dJe/7Xerhq/7R/tGkm/6+/Yd/fP9ryDv+re+cp/2jHO/xH7P0n/KMNs87+E/7Rhpnt+b9nP3r2+fPPFP79/b+W+/2jHe/0H/Xexf95/5/2/M/7j5x9/j39q3bw9O7hzz9TuvhHO2bz37I3//f779mbf/6Z0sE/2nB2/8od8O/l/8re/uGfJaPvPo/Y2z/8s4Q/f/78+fPnz3+2Dkb7R71/8efPP96Tf614/vLnz7+D/1H7O/2rddBt/mf2N//8q/kf7YB/fv8s+79aBx39K3XAv49/9P0Pf/78+fPnH+3Kv0ZG+x/pgD//LLF/+PPnz58/f/78r3XA/x7/ox3w51/Jf/Qe4s+/mv/IHcSfP3/+d3XAn39H/6Md8M/tf6QD/r39ox3510yX/R/teGcH5p9/Z/9XHfDPfwb4x54B/rFnINI/2o1/j1x5F7B/Ys+A+X+mA/45/V91wJ9/pVTaP906sP/r+ds/8f57HfDnXymj76L586+UKv7RTvx7ZvQzmD//SuHPnz//bP6+/5j/GfyvnAH+8/h37oA//5k74M9/5g7485+1gyrvv/xz+XfpoLJ/5w6q+HfogD//mXvgH58O/pU74M9/5g7485+5g2r3b/xz+1froNv+qeR/dvbX3Pk/N//8zX+nDkY9e/nzr9gB/3r+Fb5/8s+RaF/+ucOf/8z+ax3w5z+L/VoH/Pnz58+ff2X/Sh3w5z+rPf/48Oc/awdd7x86+691EG3NP1+ibc/an/H/2UG09Wz+5t/+4Z/bv0IH/PnP3MEM/pU66PT+yz9Poo1n98/cwYj/QY+25V8j0dav7Pnz588/yp4//1k64F/Tv+L9TyX/d+7hok0r+l89A/z5d+hhxHMg2pJ/zUTb84/P3vegI33wf8Z/r4Nox8r+Z3rp5p+9g71u/v1eef9s+Wft5XPls2//P8uPnAA=</Data>
+</DataArray>
+</GIFTI>

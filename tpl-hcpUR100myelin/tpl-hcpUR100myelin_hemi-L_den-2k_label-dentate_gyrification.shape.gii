@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[HippocampusDentateLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_label-dentate_gyrification.nii.gz /cifs/khan_new/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_space-unfold_den-2k_label-dentate_midthickness.surf.gii /cifs/khan_new/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100myelin/tpl-hcpUR100myelin_hemi-L_den-2k_label-dentate_gyrification.shape.gii -trilinear]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/localScratch/akhan488/hcp_hippunfold_test]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="512"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ trilinear]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[PaletteColorMapping]]></Name>
+         <Value><![CDATA[<PaletteColorMapping Version="1">
+   <ScaleMode>MODE_AUTO_SCALE_ABSOLUTE_PERCENTAGE</ScaleMode>
+   <AutoScalePercentageValues>98.000000 2.000000 2.000000 98.000000</AutoScalePercentageValues>
+   <AutoScaleAbsolutePercentageValues>2.000000 98.000000</AutoScaleAbsolutePercentageValues>
+   <UserScaleValues>-100.000000 0.000000 0.000000 100.000000</UserScaleValues>
+   <PaletteName>ROY-BIG-BL</PaletteName>
+   <InterpolatePalette>true</InterpolatePalette>
+   <InvertPalette>OFF</InvertPalette>
+   <DisplayPositiveData>true</DisplayPositiveData>
+   <DisplayZeroData>false</DisplayZeroData>
+   <DisplayNegativeData>true</DisplayNegativeData>
+   <ThresholdTest>THRESHOLD_TEST_SHOW_OUTSIDE</ThresholdTest>
+   <ThresholdType>THRESHOLD_TYPE_OFF</ThresholdType>
+   <ThresholdFailureInGreen>false</ThresholdFailureInGreen>
+   <ThresholdNormalValues>-1.000000 1.000000</ThresholdNormalValues>
+   <ThresholdMappedValues>-1.000000 1.000000</ThresholdMappedValues>
+   <ThresholdMappedAvgAreaValues>-1.000000 1.000000</ThresholdMappedAvgAreaValues>
+   <ThresholdDataName></ThresholdDataName>
+   <ThresholdRangeMode>PALETTE_THRESHOLD_RANGE_MODE_FILE</ThresholdRangeMode>
+   <ThresholdLowHighLinked>false</ThresholdLowHighLinked>
+   <ThresholdOutlineDrawingMode>OFF</ThresholdOutlineDrawingMode>
+   <ThresholdOutlineDrawingColor>WHITE</ThresholdOutlineDrawingColor>
+   <HistogramRangeMode>PALETTE_HISTOGRAM_RANGE_ALL</HistogramRangeMode>
+   <HistogramBarsVisible>true</HistogramBarsVisible>
+   <HistogramEnvelopeVisible>false</HistogramEnvelopeVisible>
+   <HistogramBarsColor>CUSTOM</HistogramBarsColor>
+   <HistogramEnvelopeColor>RED</HistogramEnvelopeColor>
+   <HistogramEnvelopeLineWidthPercentage>0.5</HistogramEnvelopeLineWidthPercentage>
+   <HistogramNumberOfBuckets>100</HistogramNumberOfBuckets>
+   <NumericFormatMode>AUTO</NumericFormatMode>
+   <PrecisionDigits>2</PrecisionDigits>
+   <NumericSubivisions>0</NumericSubivisions>
+   <ColorBarValuesMode>DATA</ColorBarValuesMode>
+   <ShowTickMarksSelected>false</ShowTickMarksSelected>
+</PaletteColorMapping>
+]]></Value>
+      </MD>
+   </MetaData>
+   <Data>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</Data>
+</DataArray>
+</GIFTI>
