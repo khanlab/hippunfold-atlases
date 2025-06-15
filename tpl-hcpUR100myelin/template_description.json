@@ -2,8 +2,8 @@
     "Identifier": "hcpUR100myelin",
     "metric_wildcards": [
         "myelin",
-        "curvature",
         "thickness",
+        "curvature",
         "gyrification"
     ],
     "label_wildcards": [
