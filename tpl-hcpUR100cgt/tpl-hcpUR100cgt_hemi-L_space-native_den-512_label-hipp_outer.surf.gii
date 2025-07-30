@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="2">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[sub-116524/surf/sub-116524_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-116524/surf/sub-116524_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-116524/surf/sub-116524_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-116524/surf/sub-116524_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-161731/surf/sub-161731_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-161731/surf/sub-161731_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-161731/surf/sub-161731_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-161731/surf/sub-161731_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-899885/surf/sub-899885_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-899885/surf/sub-899885_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-899885/surf/sub-899885_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-899885/surf/sub-899885_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-280739/surf/sub-280739_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-280739/surf/sub-280739_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-280739/surf/sub-280739_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-280739/surf/sub-280739_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-199655/surf/sub-199655_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-199655/surf/sub-199655_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-199655/surf/sub-199655_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-199655/surf/sub-199655_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-208226/surf/sub-208226_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-208226/surf/sub-208226_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-208226/surf/sub-208226_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-208226/surf/sub-208226_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-151223/surf/sub-151223_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-151223/surf/sub-151223_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-151223/surf/sub-151223_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-151223/surf/sub-151223_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-151627/surf/sub-151627_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-151627/surf/sub-151627_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-151627/surf/sub-151627_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-151627/surf/sub-151627_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-125525/surf/sub-125525_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-125525/surf/sub-125525_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-125525/surf/sub-125525_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-125525/surf/sub-125525_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-128632/surf/sub-128632_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-128632/surf/sub-128632_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-128632/surf/sub-128632_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-128632/surf/sub-128632_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-159340/surf/sub-159340_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-159340/surf/sub-159340_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-159340/surf/sub-159340_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-159340/surf/sub-159340_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-153025/surf/sub-153025_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-153025/surf/sub-153025_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-153025/surf/sub-153025_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-153025/surf/sub-153025_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-149741/surf/sub-149741_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-149741/surf/sub-149741_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-149741/surf/sub-149741_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-149741/surf/sub-149741_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-131217/surf/sub-131217_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-131217/surf/sub-131217_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-131217/surf/sub-131217_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-131217/surf/sub-131217_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-113619/surf/sub-113619_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-113619/surf/sub-113619_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-113619/surf/sub-113619_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-113619/surf/sub-113619_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-149539/surf/sub-149539_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-149539/surf/sub-149539_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-149539/surf/sub-149539_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-149539/surf/sub-149539_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-103818/surf/sub-103818_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-103818/surf/sub-103818_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-103818/surf/sub-103818_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-103818/surf/sub-103818_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-366446/surf/sub-366446_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-366446/surf/sub-366446_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-366446/surf/sub-366446_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-366446/surf/sub-366446_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-131722/surf/sub-131722_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-131722/surf/sub-131722_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-131722/surf/sub-131722_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-131722/surf/sub-131722_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-127933/surf/sub-127933_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-127933/surf/sub-127933_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-127933/surf/sub-127933_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-127933/surf/sub-127933_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-857263/surf/sub-857263_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-857263/surf/sub-857263_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-857263/surf/sub-857263_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-857263/surf/sub-857263_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-156637/surf/sub-156637_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-156637/surf/sub-156637_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-156637/surf/sub-156637_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-156637/surf/sub-156637_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-122317/surf/sub-122317_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-122317/surf/sub-122317_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-122317/surf/sub-122317_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-122317/surf/sub-122317_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-105115/surf/sub-105115_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-105115/surf/sub-105115_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-105115/surf/sub-105115_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-105115/surf/sub-105115_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-196750/surf/sub-196750_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-196750/surf/sub-196750_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-196750/surf/sub-196750_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-196750/surf/sub-196750_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-792564/surf/sub-792564_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-792564/surf/sub-792564_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-792564/surf/sub-792564_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-792564/surf/sub-792564_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-148840/surf/sub-148840_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-148840/surf/sub-148840_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-148840/surf/sub-148840_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-148840/surf/sub-148840_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-414229/surf/sub-414229_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-414229/surf/sub-414229_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-414229/surf/sub-414229_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-414229/surf/sub-414229_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-214423/surf/sub-214423_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-214423/surf/sub-214423_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-214423/surf/sub-214423_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-214423/surf/sub-214423_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-133928/surf/sub-133928_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-133928/surf/sub-133928_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-133928/surf/sub-133928_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-133928/surf/sub-133928_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-163129/surf/sub-163129_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-163129/surf/sub-163129_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-163129/surf/sub-163129_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-163129/surf/sub-163129_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-499566/surf/sub-499566_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-499566/surf/sub-499566_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-499566/surf/sub-499566_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-499566/surf/sub-499566_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-149337/surf/sub-149337_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-149337/surf/sub-149337_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-149337/surf/sub-149337_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-149337/surf/sub-149337_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-120111/surf/sub-120111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-120111/surf/sub-120111_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-120111/surf/sub-120111_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-120111/surf/sub-120111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-140925/surf/sub-140925_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-140925/surf/sub-140925_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-140925/surf/sub-140925_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-140925/surf/sub-140925_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-154734/surf/sub-154734_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-154734/surf/sub-154734_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-154734/surf/sub-154734_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-154734/surf/sub-154734_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-124422/surf/sub-124422_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-124422/surf/sub-124422_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-124422/surf/sub-124422_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-124422/surf/sub-124422_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-178950/surf/sub-178950_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-178950/surf/sub-178950_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-178950/surf/sub-178950_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-178950/surf/sub-178950_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-100408/surf/sub-100408_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-100408/surf/sub-100408_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-100408/surf/sub-100408_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-100408/surf/sub-100408_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-139637/surf/sub-139637_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-139637/surf/sub-139637_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-139637/surf/sub-139637_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-139637/surf/sub-139637_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-147737/surf/sub-147737_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-147737/surf/sub-147737_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-147737/surf/sub-147737_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-147737/surf/sub-147737_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-126325/surf/sub-126325_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-126325/surf/sub-126325_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-126325/surf/sub-126325_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-126325/surf/sub-126325_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-146432/surf/sub-146432_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-146432/surf/sub-146432_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-146432/surf/sub-146432_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-146432/surf/sub-146432_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-211720/surf/sub-211720_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-211720/surf/sub-211720_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-211720/surf/sub-211720_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-211720/surf/sub-211720_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-192540/surf/sub-192540_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-192540/surf/sub-192540_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-192540/surf/sub-192540_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-192540/surf/sub-192540_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-151526/surf/sub-151526_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-151526/surf/sub-151526_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-151526/surf/sub-151526_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-151526/surf/sub-151526_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-654754/surf/sub-654754_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-654754/surf/sub-654754_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-654754/surf/sub-654754_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-654754/surf/sub-654754_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-118528/surf/sub-118528_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-118528/surf/sub-118528_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-118528/surf/sub-118528_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-118528/surf/sub-118528_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-135225/surf/sub-135225_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-135225/surf/sub-135225_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-135225/surf/sub-135225_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-135225/surf/sub-135225_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-135932/surf/sub-135932_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-135932/surf/sub-135932_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-135932/surf/sub-135932_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-135932/surf/sub-135932_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-127630/surf/sub-127630_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-127630/surf/sub-127630_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-127630/surf/sub-127630_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-127630/surf/sub-127630_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-122620/surf/sub-122620_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-122620/surf/sub-122620_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-122620/surf/sub-122620_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-122620/surf/sub-122620_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-144832/surf/sub-144832_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-144832/surf/sub-144832_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-144832/surf/sub-144832_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-144832/surf/sub-144832_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-118932/surf/sub-118932_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-118932/surf/sub-118932_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-118932/surf/sub-118932_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-118932/surf/sub-118932_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-160123/surf/sub-160123_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-160123/surf/sub-160123_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-160123/surf/sub-160123_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-160123/surf/sub-160123_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-148335/surf/sub-148335_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-148335/surf/sub-148335_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-148335/surf/sub-148335_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-148335/surf/sub-148335_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-128127/surf/sub-128127_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-128127/surf/sub-128127_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-128127/surf/sub-128127_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-128127/surf/sub-128127_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-105014/surf/sub-105014_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-105014/surf/sub-105014_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-105014/surf/sub-105014_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-105014/surf/sub-105014_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-108828/surf/sub-108828_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-108828/surf/sub-108828_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-108828/surf/sub-108828_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-108828/surf/sub-108828_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-672756/surf/sub-672756_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-672756/surf/sub-672756_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-672756/surf/sub-672756_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-672756/surf/sub-672756_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-123925/surf/sub-123925_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-123925/surf/sub-123925_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-123925/surf/sub-123925_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-123925/surf/sub-123925_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-162733/surf/sub-162733_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-162733/surf/sub-162733_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-162733/surf/sub-162733_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-162733/surf/sub-162733_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-211417/surf/sub-211417_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-211417/surf/sub-211417_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-211417/surf/sub-211417_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-211417/surf/sub-211417_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-189450/surf/sub-189450_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-189450/surf/sub-189450_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-189450/surf/sub-189450_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-189450/surf/sub-189450_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-138534/surf/sub-138534_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-138534/surf/sub-138534_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-138534/surf/sub-138534_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-138534/surf/sub-138534_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-176542/surf/sub-176542_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-176542/surf/sub-176542_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-176542/surf/sub-176542_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-176542/surf/sub-176542_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-130316/surf/sub-130316_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-130316/surf/sub-130316_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-130316/surf/sub-130316_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-130316/surf/sub-130316_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-397760/surf/sub-397760_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-397760/surf/sub-397760_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-397760/surf/sub-397760_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-397760/surf/sub-397760_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-106016/surf/sub-106016_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-106016/surf/sub-106016_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-106016/surf/sub-106016_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-106016/surf/sub-106016_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-110411/surf/sub-110411_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-110411/surf/sub-110411_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-110411/surf/sub-110411_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-110411/surf/sub-110411_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-118730/surf/sub-118730_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-118730/surf/sub-118730_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-118730/surf/sub-118730_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-118730/surf/sub-118730_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-117122/surf/sub-117122_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-117122/surf/sub-117122_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-117122/surf/sub-117122_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-117122/surf/sub-117122_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-101915/surf/sub-101915_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-101915/surf/sub-101915_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-101915/surf/sub-101915_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-101915/surf/sub-101915_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-188347/surf/sub-188347_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-188347/surf/sub-188347_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-188347/surf/sub-188347_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-188347/surf/sub-188347_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-103111/surf/sub-103111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-103111/surf/sub-103111_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-103111/surf/sub-103111_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-103111/surf/sub-103111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-111716/surf/sub-111716_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-111716/surf/sub-111716_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-111716/surf/sub-111716_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-111716/surf/sub-111716_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-101309/surf/sub-101309_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-101309/surf/sub-101309_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-101309/surf/sub-101309_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-101309/surf/sub-101309_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-133019/surf/sub-133019_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-133019/surf/sub-133019_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-133019/surf/sub-133019_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-133019/surf/sub-133019_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-212318/surf/sub-212318_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-212318/surf/sub-212318_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-212318/surf/sub-212318_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-212318/surf/sub-212318_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-101107/surf/sub-101107_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-101107/surf/sub-101107_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-101107/surf/sub-101107_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-101107/surf/sub-101107_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-856766/surf/sub-856766_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-856766/surf/sub-856766_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-856766/surf/sub-856766_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-856766/surf/sub-856766_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-136833/surf/sub-136833_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-136833/surf/sub-136833_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-136833/surf/sub-136833_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-136833/surf/sub-136833_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-103414/surf/sub-103414_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-103414/surf/sub-103414_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-103414/surf/sub-103414_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-103414/surf/sub-103414_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-114419/surf/sub-114419_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-114419/surf/sub-114419_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-114419/surf/sub-114419_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-114419/surf/sub-114419_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-123117/surf/sub-123117_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-123117/surf/sub-123117_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-123117/surf/sub-123117_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-123117/surf/sub-123117_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-221319/surf/sub-221319_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-221319/surf/sub-221319_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-221319/surf/sub-221319_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-221319/surf/sub-221319_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-129028/surf/sub-129028_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-129028/surf/sub-129028_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-129028/surf/sub-129028_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-129028/surf/sub-129028_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-201111/surf/sub-201111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-201111/surf/sub-201111_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-201111/surf/sub-201111_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-201111/surf/sub-201111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-100307/surf/sub-100307_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-100307/surf/sub-100307_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-100307/surf/sub-100307_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-100307/surf/sub-100307_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-198451/surf/sub-198451_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-198451/surf/sub-198451_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-198451/surf/sub-198451_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-198451/surf/sub-198451_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-115320/surf/sub-115320_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-115320/surf/sub-115320_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-115320/surf/sub-115320_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-115320/surf/sub-115320_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-298051/surf/sub-298051_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-298051/surf/sub-298051_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-298051/surf/sub-298051_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-298051/surf/sub-298051_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-751348/surf/sub-751348_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-751348/surf/sub-751348_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-751348/surf/sub-751348_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-751348/surf/sub-751348_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-190031/surf/sub-190031_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-190031/surf/sub-190031_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-190031/surf/sub-190031_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-190031/surf/sub-190031_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-111312/surf/sub-111312_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-111312/surf/sub-111312_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-111312/surf/sub-111312_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-111312/surf/sub-111312_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-113922/surf/sub-113922_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-113922/surf/sub-113922_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-113922/surf/sub-113922_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-113922/surf/sub-113922_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-239944/surf/sub-239944_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-239944/surf/sub-239944_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-239944/surf/sub-239944_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-239944/surf/sub-239944_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-756055/surf/sub-756055_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-756055/surf/sub-756055_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-756055/surf/sub-756055_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-756055/surf/sub-756055_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-130013/surf/sub-130013_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-130013/surf/sub-130013_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-130013/surf/sub-130013_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-130013/surf/sub-130013_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+sub-245333/surf/sub-245333_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii:
+wb_command -surface-resample sub-245333/surf/sub-245333_hemi-L_space-corobl_den-native_label-hipp_outer.surf.gii sub-245333/surf/sub-245333_hemi-L_space-unfoldavg_den-native_label-hipp_outer.surf.gii tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_label-hipp_resample-12.5_outer.surf.gii BARYCENTRIC sub-245333/surf/sub-245333_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -bypass-sphere-check
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -surface-average /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-native_den-512_label-hipp_outer.surf.gii -surf sub-116524/surf/sub-116524_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-161731/surf/sub-161731_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-899885/surf/sub-899885_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-280739/surf/sub-280739_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-199655/surf/sub-199655_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-208226/surf/sub-208226_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-151223/surf/sub-151223_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-151627/surf/sub-151627_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-125525/surf/sub-125525_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-128632/surf/sub-128632_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-159340/surf/sub-159340_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-153025/surf/sub-153025_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-149741/surf/sub-149741_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-131217/surf/sub-131217_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-113619/surf/sub-113619_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-149539/surf/sub-149539_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-103818/surf/sub-103818_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-366446/surf/sub-366446_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-131722/surf/sub-131722_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-127933/surf/sub-127933_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-857263/surf/sub-857263_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-156637/surf/sub-156637_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-122317/surf/sub-122317_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-105115/surf/sub-105115_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-196750/surf/sub-196750_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-792564/surf/sub-792564_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-148840/surf/sub-148840_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-414229/surf/sub-414229_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-214423/surf/sub-214423_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-133928/surf/sub-133928_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-163129/surf/sub-163129_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-499566/surf/sub-499566_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-149337/surf/sub-149337_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-120111/surf/sub-120111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-140925/surf/sub-140925_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-154734/surf/sub-154734_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-124422/surf/sub-124422_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-178950/surf/sub-178950_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-100408/surf/sub-100408_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-139637/surf/sub-139637_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-147737/surf/sub-147737_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-126325/surf/sub-126325_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-146432/surf/sub-146432_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-211720/surf/sub-211720_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-192540/surf/sub-192540_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-151526/surf/sub-151526_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-654754/surf/sub-654754_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-118528/surf/sub-118528_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-135225/surf/sub-135225_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-135932/surf/sub-135932_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-127630/surf/sub-127630_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-122620/surf/sub-122620_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-144832/surf/sub-144832_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-118932/surf/sub-118932_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-160123/surf/sub-160123_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-148335/surf/sub-148335_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-128127/surf/sub-128127_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-105014/surf/sub-105014_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-108828/surf/sub-108828_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-672756/surf/sub-672756_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-123925/surf/sub-123925_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-162733/surf/sub-162733_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-211417/surf/sub-211417_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-189450/surf/sub-189450_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-138534/surf/sub-138534_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-176542/surf/sub-176542_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-130316/surf/sub-130316_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-397760/surf/sub-397760_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-106016/surf/sub-106016_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-110411/surf/sub-110411_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-118730/surf/sub-118730_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-117122/surf/sub-117122_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-101915/surf/sub-101915_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-188347/surf/sub-188347_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-103111/surf/sub-103111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-111716/surf/sub-111716_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-101309/surf/sub-101309_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-133019/surf/sub-133019_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-212318/surf/sub-212318_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-101107/surf/sub-101107_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-856766/surf/sub-856766_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-136833/surf/sub-136833_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-103414/surf/sub-103414_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-114419/surf/sub-114419_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-123117/surf/sub-123117_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-221319/surf/sub-221319_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-129028/surf/sub-129028_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-201111/surf/sub-201111_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-100307/surf/sub-100307_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-198451/surf/sub-198451_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-115320/surf/sub-115320_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-298051/surf/sub-298051_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-751348/surf/sub-751348_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-190031/surf/sub-190031_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-111312/surf/sub-111312_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-113922/surf/sub-113922_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-239944/surf/sub-239944_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-756055/surf/sub-756055_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-130013/surf/sub-130013_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii -surf sub-245333/surf/sub-245333_hemi-L_space-corobl_label-hipp_resample-12.5_outer.surf.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/tmp]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_POINTSET"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="2"
+           Dim0="512"
+           Dim1="3"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[HippocampusLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[AnatomicalStructureSecondary]]></Name>
+         <Value><![CDATA[Outer]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[GeometricType]]></Name>
+         <Value><![CDATA[Anatomical]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <CoordinateSystemTransformMatrix>
+      <DataSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></DataSpace>
+      <TransformedSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></TransformedSpace>
+      <MatrixData>
+         1 0 0 0 
+         0 1 0 0 
+         0 0 1 0 
+         0 0 0 1 
+      </MatrixData>
+   </CoordinateSystemTransformMatrix>
+   <Data>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</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_TRIANGLE"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="2"
+           Dim0="930"
+           Dim1="3"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#2]]></Value>
+      </MD>
+   </MetaData>
+   <Data>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</Data>
+</DataArray>
+</GIFTI>

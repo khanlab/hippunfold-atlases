@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[HippocampusLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+wb_command -volume-label-import tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /home/UWO/akhan488/hippunfold/hippunfold/workflow/../resources/label_lut/labellist_withdg.txt tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_space-unfold_den-18k_label-hipp_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100cgt/tpl-hcpUR100cgt_hemi-L_den-18k_label-hipp_dseg.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/tmp]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+      <Label Key="6" Red="1" Green="1" Blue="0" Alpha="1"><![CDATA[DG]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="18432"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2suOm0AQBVBPHv//y1GkLEYO2ICbrkcfS3fj2Z1bFLiHr8fj8ZUgPxLm504eO9//2sj3z9bfuX/WxSv7I2H/v/Es+0j/aOuzxl38o535581se/6fd8A/rodP7Wf7R5tm8v/9L+yv+X869zP9oy1H+4/YO7P8ox0zzv4s/2jHrLM/wz/aMPPs879mP3r38OefKfxz2/OP72CkPX/+mTJjB/GP83+253/ef+Ts85/nv2XPv6d/tGM2/z17888/S+569nllb//cP//8+VdJB/9oQ/51M9r/nb39wz9TOvhHG67uX7WDO35/8Y/zP2LPn3+W8I8P/z7+kfffqh3w57+qf6fn/67+Z+z5x85/5PMPf/78a4V/fEb5H7W/079iB/z585+3++/2r9ZBp/svf/78a3XQ6fyNP3/+/Pnzj3blXyP8+fPnz58/f/787z+D43/e/2gH/OP8j9jz558t9k98Zl4D/K/Z88/vf6QD/uY/W/jz599j/0dbru7fuYMK/tGO/GuGf3z48+fPv3IHkf7RdjM64J/7GuB/v/8nHfDnXyFX/e2fOR2Yf/78+Ud1wJ9/d/9q+2elDq6eQ7DnXymjz6L5868U/vxXtecfn9H/C+PPv1L48+fPnz9//rk6yOTfuYOR18Cd/l07GPkbmD//aqmy/7t2wD+ff7bzz84d8Oe/cgdV/bt0wJ//yh1U9+/QA3/+K3fAP5d/5vOHjh3wj08X/4oddJr/Dv5V77/88yTa9Kr9O/8td/78O3XAP+/8v+og2pt/rkTbru6fvYOR717xnzf//Pnz58+/tv1eB/z5r+T/3AF//vzr+1fqgD9//vz58+fPnz9//mv4dz3/qeB/9fx5q4Noa/75Eu3LP386+1fooPP9t4L/cwfm3/yv3EFH/+wdjHgHNNqXf+5EG6/un7WDUe+gR9vyz59oa/75suX/rgP+/Dv4X7Gv7J+tA/78V+6Af3yudvDcQ7Tpiv7fO4g25V8r0e6jd1C0Z+UO+PNfuYM9/zN9RDuu4P+qg2jHyv4jdlK0Y8cOjqby/t/zr9TNX/8/KQqb7g==</Data>
+</DataArray>
+</GIFTI>
