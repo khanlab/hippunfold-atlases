@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="2">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[sub-bbhist/surf/sub-bbhist_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii:
+wb_command -surface-apply-affine sub-bbhist/surf/sub-bbhist_hemi-L_space-corobl_label-dentate_resample-12.5_outer.surf.gii affine.xfm sub-bbhist/surf/sub-bbhist_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii
+
+sub-bbhist/surf/sub-bbhist_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii:
+wb_command -surface-apply-affine sub-bbhist/surf/sub-bbhist_hemi-R_space-corobl_label-dentate_resample-12.5_outer.surf.gii affine.xfm sub-bbhist/surf/sub-bbhist_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii
+
+sub-pli3d/surf/sub-pli3d_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii:
+wb_command -surface-apply-affine sub-pli3d/surf/sub-pli3d_hemi-L_space-corobl_label-dentate_resample-12.5_outer.surf.gii affine.xfm sub-pli3d/surf/sub-pli3d_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii
+
+sub-152017/surf/sub-152017_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii:
+wb_command -surface-apply-affine sub-152017/surf/sub-152017_hemi-R_space-corobl_label-dentate_resample-12.5_outer.surf.gii affine.xfm sub-152017/surf/sub-152017_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii
+
+sub-152017/surf/sub-152017_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii:
+wb_command -surface-apply-affine sub-152017/surf/sub-152017_hemi-L_space-corobl_label-dentate_resample-12.5_outer.surf.gii affine.xfm sub-152017/surf/sub-152017_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii
+
+sub-122017/surf/sub-122017_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii:
+wb_command -surface-apply-affine sub-122017/surf/sub-122017_hemi-R_space-corobl_label-dentate_resample-12.5_outer.surf.gii affine.xfm sub-122017/surf/sub-122017_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii
+
+sub-122017/surf/sub-122017_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii:
+wb_command -surface-apply-affine sub-122017/surf/sub-122017_hemi-L_space-corobl_label-dentate_resample-12.5_outer.surf.gii affine.xfm sub-122017/surf/sub-122017_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -surface-average /tmp/hippunfold/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-native_den-512_label-dentate_outer.surf.gii -surf sub-bbhist/surf/sub-bbhist_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii -surf sub-bbhist/surf/sub-bbhist_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii -surf sub-pli3d/surf/sub-pli3d_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii -surf sub-152017/surf/sub-152017_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii -surf sub-152017/surf/sub-152017_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii -surf sub-122017/surf/sub-122017_hemi-R_space-coroblaligned_label-dentate_density-512_outer.surf.gii -surf sub-122017/surf/sub-122017_hemi-L_space-coroblaligned_label-dentate_density-512_outer.surf.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/tmp/atlasgen_multihist7]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_POINTSET"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="2"
+           Dim0="128"
+           Dim1="3"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[HippocampusDentateLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[AnatomicalStructureSecondary]]></Name>
+         <Value><![CDATA[Outer]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[GeometricType]]></Name>
+         <Value><![CDATA[Anatomical]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <CoordinateSystemTransformMatrix>
+      <DataSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></DataSpace>
+      <TransformedSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></TransformedSpace>
+      <MatrixData>
+         1 0 0 0 
+         0 1 0 0 
+         0 0 1 0 
+         0 0 0 1 
+      </MatrixData>
+   </CoordinateSystemTransformMatrix>
+   <Data>eJwN0ok/lHkAB+CKSdMOJrqPFcuWWYUKXeZ9Uyok1MaQFrUlR46dNJKtaCSVxs26hjHjajXlmtLw/r5alS6RSiiKtt0UpU/pZPf5Gx6tl8GYH76ITlu2F1mhQfB4a0G/1wuAqjMAF2Zb0e4XAuD9zB/EaznteTMApX8cgDDeg/IeiESLsxAzZFnUaNhRXDUOhU1zJSV+KkYIJwDJejXUuLoEWIvE6Gga4g98FoH1NgYOvRJK9CoWzTeiMXzzInX22UmwqqMxYppA+ZxKxuZbp8EMWFEtaYfQ6JqAVv4Vak5wHNY/jUPg8CDFKCWIehiHvdrZlNQgDTX30+HgUkvpLP0d3MhULJHp0rvz4/GSSBAfyaMtYlJw7JoE/se6KDYnDdNe52DV8X4qeFskGNNsOKr5tOXV43h9NxPm3D20wYIMaHAykW35hXKSpUMnqxAp+19QM4eFMAmV4XqZPe34QYwl96V4HONKn/iajvAvuTA7MkQZd6TBeKgERiHt1MPSEJjolUPct5y+sSIOM41K4LzClF56PhWoLISOupoKb09GxJcKzODlU53ZgRg2q0Te0Cx6v5sYsa0VeKKtQZf6J4Mfo4DDwQBqcdUZ7ORVwXG5DeVlvwet4y8h0biW2saNgSC3CvVHpNRg/xlclpeCtr3Fz113CtovVbD3M7XlafrC6149qjbPolL8onCOpcLh4822un0nEK0sB3m3q0F1KB6Vzy6jp9ea2RIqQH9PIyLd2ExnZRiYAyq0h0Qw3LZY0A/KwSh9mCW1sdgracDPw7eZsJsuuPW8EVGDfYz0J3+0TVKh3nyE6fMQ4dY/Zbibc5NZ0haFxccJ9rsakqqJ6/E4uxGZBivJwj3eMFtTg/wSK6LXGIRR51LMPzaV6PuGwdm7EWuivcltQ1u8LiYwtxMSp/Ct2LijGvtGA0hvuS+6pcVojaCJ1dbd6HlzBcXGp8nXzKVQ/8vgyKRUcpLnBJ2MKngmSohRnQd8GTly2UFkQrEAYzv+QqtZCTHKNYNHVgPufKogvcV24N2uxNfpCrKowgEH7RQw7EkgG0sccJLVBFbpVcJXG0MgVkNrSjPRj12OAt8LOC9SEz9tPsxtFMiTFJF0t1WwzWrCOoN+cm7cPPi11+HJx36y4cliaKqVkFd3kPIzy9DlIkemJ0NeCBehkG7Cjw/G4cOKaQiOqkNo0hix6TeBjYMSrfJ35NMUHthdclgaPiJdXEPkT29CrYwLD953uG5xCZirA63nMyF0P4e3RlpQhsxD55Ac0tDXxGp0Klw9ryBp6Xx0ho4SR7EKU7jzcELAQdDIn+ht10fjZV1wx4rAG68BrzlslBcDYxPMsaqvnyxg12JkeCHKPo3DYOJZxKw2gPlEFnZZyvFgNxfikfdkvSaDsIEVyNhxh7juq8Zt72Ww2vA30bU5C8bdFBV5g8SepYB93Gx0unURp51qKHwckbJVSe4rLmC64xoECK4RS80y3LO1xje3NtK4tgiTNxpDag6iXX0ROl/d0T0jlbR4nMNVgQtSOpRku1wB7bd2GKqpI6t9ZWAXW2CmTE7uVVTDbrsf9CN2E6/ZZ5GS5QW3yUnknaAITsJNeGCZS8ZMCxH4dCWStpwgdjVKmEQEwSfKmEh6imG7YyfeqH2JySsphr22weNpNGlqyYdp/FoEpfqQR9z/b28SQql3lxH9IkOnaSCsZSYkLzUXc697Iy/djrTX5+CzpjOSXX4gLY4FSKzbj5TutUzs/RyoLu/D93HNDOd5BjgDfqAmssjWZRlI8XKHRk43Y96UCo1RET710w193UlITAiH2yUBM1KQiMPSvWDPkTG/+Z5BhMIP+SpPpop/FCuToxDPruTbXDmMu99EEHE4tv4Wv6OsQIihF5yGj4ejYcUKg+Ovkvr/AN4wSDs=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_TRIANGLE"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="2"
+           Dim0="186"
+           Dim1="3"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#2]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJxNlQlTE0EUhAdFMIqAAeQ+haiRoEFQAgaQU5GABAgEFQUMCuEKl8Tzr/u69ttyqerqr9/Ozm7mzSylzrkS5/3JS003THdNFaZqXPmO6R5chyuH8WZTPa7cZKplXDVey72NjKnDGxn/w/TX9BNX/oP/DnCRvGv6atqB5dumPdORaR9XPjQdwN/wA+p6hxp+Sw25nvW4yZrIQwGuYE1CZPGg6alpAFeOm4bgAVw5YeoytZvacOX7cDNr0o63sX4NrFsD6yYu8FtO8AK/6xw+wZUvTJ9NH00fcOUteIs13CRvs4Z51jNPPmbN8/QgT96nN1emX/Tqito5fIEX4Rz3bvP8HJzj3b7gucD1PZ61S96nrznG78GqTZmmTeP4K3jMNGwahUfI2quV9LSSHIZDgfotsrwMDsHaJyXwNbyEejn5NipjDn/cdbwcfuC8vRHBlbVP1P9W5+2PJrgN1/5owVsZ+8z03PQCV+6HR6iPkIdxXdceHiTHceUEnGD8J+ftG/Vuh+zvJfEG/h7WWb503j4owhe4ruk78J0sXjW9M63gykumDHOu4RnmV68n6PcEecaUNa27//s/C2fJm/Am86yTV/BVOEPewDNc096ooqdV9FhcQw7jlbDeLcl7JsmjrGkSTsDDgXHj+Et4iJyglqR26rwzq29CgXyInznvLB+Rj/FCoBen8Cn9OIMvya9Z2yn4DTlFn5Zw5XnGpBiXIs/Dc9TnyAvwW9MsPEsfF8n+mEXG+fdPoznGp5lzCU9z7yrs76U0tUl6McMzJ2H5GH2ZIIujzjubEVz5sWmZedfgNHmZd16gtgzrXPY57+z1kZ8wVx8chVXrIUdw5Ud4t+lhIIt7TTE4xjWf9X8rDveSYzwrCke5p58c53qMWqfzvjn6/nSQW3B9v/xvVCfcDXfwjp3UuuAI3gP/A93qimo=</Data>
+</DataArray>
+</GIFTI>

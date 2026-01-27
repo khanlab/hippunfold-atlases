@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="2">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfoldrot_den-512_label-dentate_midthickness.surf.gii:
+wb_command -surface-apply-affine /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-512_label-dentate_midthickness.surf.gii /tmp/hippunfold/hippunfold/workflow/../resources/etc/unfoldrot.R.txt /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfoldrot_den-512_label-dentate_midthickness.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -surface-flip-normals /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfoldrot_den-512_label-dentate_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfoldrot_den-512_label-dentate_midthickness.surf.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/tmp/atlasgen_multihist7]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_POINTSET"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="2"
+           Dim0="128"
+           Dim1="3"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[HippocampusDentateRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[AnatomicalStructureSecondary]]></Name>
+         <Value><![CDATA[MidThickness]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[GeometricType]]></Name>
+         <Value><![CDATA[Flat]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <CoordinateSystemTransformMatrix>
+      <DataSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></DataSpace>
+      <TransformedSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></TransformedSpace>
+      <MatrixData>
+         1 0 0 0 
+         0 1 0 0 
+         0 0 1 0 
+         0 0 0 1 
+      </MatrixData>
+   </CoordinateSystemTransformMatrix>
+   <Data>eJxNyqFuhEAUQNERNSQNBgQGj6yoxG3TWj5hBZ9QgaxqUodGVaBJSCpwu521aBIcCoEeTZqZ8nauO+Ko97ebUo8Xpb4v6vnV27x4/5y83V/xV/wVf8U/Xf0/7P5h9w/b//Hlv9h+sf1i93v8Hr/H7/Fn/Bl/xp/9v6rf+xfbL7Zf7H6MH+PH+DF+hp/hZ/gZfo6f4+f4OX6BX+AX+AV+iV/il/glfoVf4Vf4lf/nT//F9ovtF7tf49f4NX6N3+A3+A1+g9/it/gtfovf4Xf4HX6HP+AP+AP+gK/xNb7G1/gj/og/4o/4E/6EP+FP+Av+gr/gL/gb/oa/4W/4Bt/gG3yDv+Pv+Dv+7v/Tg75/sf1i+8XuB/gBfoAf4If4IX6IH+JH+BF+hB/hJ/gJfoKf4Kf4KX6K/+8//WFNuw==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_TRIANGLE"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="2"
+           Dim0="186"
+           Dim1="3"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#2]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJxNlQlTE0EUhAdFMIqAAeQ+haiRoEFQAgaQU5GABAgEFQUMCuEKl8Tzr/u69ttyqerqr9/Ozm7mzSylzrkS5/3JS003THdNFaZqXPmO6R5chyuH8WZTPa7cZKplXDVey72NjKnDGxn/w/TX9BNX/oP/DnCRvGv6atqB5dumPdORaR9XPjQdwN/wA+p6hxp+Sw25nvW4yZrIQwGuYE1CZPGg6alpAFeOm4bgAVw5YeoytZvacOX7cDNr0o63sX4NrFsD6yYu8FtO8AK/6xw+wZUvTJ9NH00fcOUteIs13CRvs4Z51jNPPmbN8/QgT96nN1emX/Tqito5fIEX4Rz3bvP8HJzj3b7gucD1PZ61S96nrznG78GqTZmmTeP4K3jMNGwahUfI2quV9LSSHIZDgfotsrwMDsHaJyXwNbyEejn5NipjDn/cdbwcfuC8vRHBlbVP1P9W5+2PJrgN1/5owVsZ+8z03PQCV+6HR6iPkIdxXdceHiTHceUEnGD8J+ftG/Vuh+zvJfEG/h7WWb503j4owhe4ruk78J0sXjW9M63gykumDHOu4RnmV68n6PcEecaUNa27//s/C2fJm/Am86yTV/BVOEPewDNc096ooqdV9FhcQw7jlbDeLcl7JsmjrGkSTsDDgXHj+Et4iJyglqR26rwzq29CgXyInznvLB+Rj/FCoBen8Cn9OIMvya9Z2yn4DTlFn5Zw5XnGpBiXIs/Dc9TnyAvwW9MsPEsfF8n+mEXG+fdPoznGp5lzCU9z7yrs76U0tUl6McMzJ2H5GH2ZIIujzjubEVz5sWmZedfgNHmZd16gtgzrXPY57+z1kZ8wVx8chVXrIUdw5Ud4t+lhIIt7TTE4xjWf9X8rDveSYzwrCke5p58c53qMWqfzvjn6/nSQW3B9v/xvVCfcDXfwjp3UuuAI3gP/A93qimo=</Data>
+</DataArray>
+</GIFTI>

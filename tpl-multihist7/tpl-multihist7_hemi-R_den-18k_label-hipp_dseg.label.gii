@@ -6,12 +6,15 @@
    <MetaData>
       <MD>
          <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
-         <Value><![CDATA[Invalid]]></Value>
+         <Value><![CDATA[HippocampusRight]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /export03/data/opt/hippunfold-dev/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /tmp/hippunfold/hippunfold/workflow/../resources/label_lut/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+/nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-18k_label-hipp_midthickness.surf.gii:
+wb_command -surface-flip-normals tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_label-hipp_resample-75_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-18k_label-hipp_midthickness.surf.gii
 
 ]]></Value>
       </MD>
@@ -33,11 +36,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-18k_label-hipp_midthickness.surf.gii /export03/data/opt/hippunfold-dev/cache2/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-18k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-18k_label-hipp_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-18k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/export03/data/opt/hippunfold-dev/multihist7_newatlas]]></Value>
+         <Value><![CDATA[/tmp/atlasgen_multihist7]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -61,9 +64,9 @@ Compiled with OpenMP: YES
    <MetaData>
       <MD>
          <Name><![CDATA[Name]]></Name>
-         <Value><![CDATA[]]></Value>
+         <Value><![CDATA[#1]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt2euKGzEQRGF77X3/Vw4LMRjj8VysnuoqnYDIYkJ+fKdHmpWvl8vl2mD9vFmXhc9HrbX//7awLguf39+s5z+vn98buC/Zd1xLPd65b13Yv3feau/q/9PI/5PtbcO/cfNXe+/1X1tO/mrrig74axvgr+nwjTv+Wv/f/+sscyf7RH+3Vb3v4D+Hv9pxVn+1X2d7/Pe7jz53K/3VjpX+o+Yef43/awP88/xdG6TsP8n+3zR4tcf/mP/RBvgz/53XmXOP/3nz/7C+4D/F/KsdO/n/rjTAv97/UwP2n3P8mf/z/dfsmf+8+Vcb4u+7Rr7/b9l78M/zd26QcP6qDZl/vePM8+/qP/rujfN3vL2Df3oD/LUN8PeYf87f8fYu/m4N0s5fN/89HfbM/5YO+OPfZbH/ZNjjX+M/+u6t0t+tQcX7p3L/T/Rn//GZf7W/WwP2f/1Kmn+15ez+jg3S9h+3Dop3IPzx77Lwx39W+60N8Gf+8cffwX9LA/z3+Y/+Hbja36nBw3etBf46f7f9383/tQX+Gv+lBvjX2Se+f7r4VzTAH38n/9EN8K+xd/JXm1Z0uG9osMWe+f/uOXCYf/zxr7DHv7//lgb41/hz/tY3YP/BP9F/awP8e/tz/uKvdlT6q/cftWF1A/z9nwH8jzdg/9c/A/jjn+z/bQP2/3n9Z2nQ1V9t1uEZwB//lFWxB7H/Z/qrrWb3n61Bx/0/qUHV7wD4j2mAf1//Tw2wH9Pg6F0081/vz/tPrX3H/Udt1Wn+FfuP2qnbM8D8z+Wf2mD0PSj2mfOvdjrbn/OX+cef+Vc2wB//GRq4+Kc2GHkG45/tn9jA4f0/1X7tGejmn9jA4fev5AYO37+k+rvcP8zWoPv8J3Vwev/Bv5+/ewP3/efh79zB3d/5OXC6f0v0X2rgOP+uDVLmH/8eS+2Jv99K8ndq4Hr/k97A3V9terZ9N3/nBgn+atPZ/V06JNy/4d/TX207u79Dg3T/7g0Svv/Cv6+/2hf/3ivZX217tAH+2gYJ/mpP5l/vOvP8uzXAv4c9/voGKf5q0yp/l/sftSnz77MS/V0apJ6/alf8PVaqv0uDI/7vGqitHf2P3j/jX2OPv74B/v39OX/rGuDf35/9h/lPaZDu79AB/x7233wHoPZ187/h32LN4t+1wUz+HRvgj/+s9kv+aw1c/bs1OHoHjT/++Hv6OzRI9+/SYOR3kGpPN/tP/kfu4dSmaQ32PgNqT1f/Tx2S579bh2+fAbXjrP7Mf439nnPB2b9Dg4ftliZLz4Ha0Nl/aT1sX/2fO/wG+Hdu8OmZefyctP9cn/7u2OX+5rM//3+Gs5vq</Data>
+   <Data>eJzt2tFu20AMRFHFif//l/MSA4ZhK7sSqeFwbwECLZw89MwsV1X6tW3bl3huybMd/L7vl99/mp+d2f6+5vHr9fPO7pFz1P+/UXffIYcM+zv+Q3tnz/+s/ZX+n/6uVfz3Op6xd670V9tm2Ef437F/u3eu6n6mv9oy+0zgr/OPss/yV9tl+kfY46/tfqa/2s6h+/hr+3/fcvzVbpnuGfb0f87/bAav9vjP2Tv4u2Zw1fsG/Pv7k8GYPf7j7hn2+OszwH8ug8ju45/ff/zrdp/nzzx7pb9bBlndZ//EZRDde/zz/GcywF9393L/5jx3qveP2hR/r8Eff/zxr+w/k4HSX22Jv9/g38de6X8zzGDU36X/Hf2z3j3g32v/OPqPZODUf7Ul/ffLQXX34h/vT//j/Z32v5O/evev7q/ePfhr71788VcP+wf/lTPo7O+QAf74Z9qvlEGl559VzwD+OTngrz0D+OPf1X7EPysD/GP96T/++OOPv970iPteFvjn+Y+cB7f3D2rb2f6f9af/+Hf2z9hBmf4OGYzevfhf1/+j/tXuXzf/kTPg5u+QwbP5Gf+K+8fBn/7X8T9z/+KfnwP++nOAP/7d/FV3APZx/tX6rza9cvfgr83g4TmbA/bz/pHnAP+Y/uN/jX/0z2Dwj8+ggn/nDBz81YZZGbB/6p8B/PFfOQP88VfbZdvjr88Bf+0ZwJ/+d/ffywB//Lv7u+6fFTKI+Ddwpn+XDFz7jz/++PsP/vjjn5MB/vH+lfrfIQPn/q/oT//pP/74498jA+f3b/jjj7/eEH/fwd/PfzQD/PGvPvjrx/X9fwd/7l/8V84Cfy//ivsff/yjM3D0Vzuu7u+aQSd/xxzwxx//Xv5OGeCP/8oZdPZ3yAB//PHv6a+2Xd3fIQP88V85h04//+qSAf41+++8f6r6Z2WgtnZwn90/rv1X+67sr7Y9kkHH+1ftu7p/9Qy6+6t98a89Xf1vzfxHM1C7u/Qe/xqDP/7497x/q0/n989qW/zrz4w/+5/+d/N/zQB//Feyn/Fn/9P/7v4RZ0Dtjn+NUbtm+DvtH5csuvbfwX/2/4C6+lfNAH8///8yUDvjX3PU1qP+Z5+B1M5uOURnoPZ1sj+6g1z9K2aAfz3/Mxmofd0yWGn/d/B3f/5x9++wfyplcNT/UwZqV7cM8NfPmQxec1CbOvpHZqA2dc3gk//sLlJ7umaw5z+TgdrS2f/5zz8Hs1Bbuvq/m4fpyNm4G/tXz+GRxd7nzvt/L4OtWDbPu+bd579goKJ4</Data>
 </DataArray>
 </GIFTI>

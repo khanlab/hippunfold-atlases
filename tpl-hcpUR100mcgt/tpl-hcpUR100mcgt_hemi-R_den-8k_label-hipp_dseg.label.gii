@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[HippocampusRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[tpl-hcpUR100mcgt/tpl-hcpUR100mcgt_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
+wb_command -volume-label-import tpl-hcpUR100mcgt/tpl-hcpUR100mcgt_hemi-R_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /home/UWO/akhan488/hippunfold/hippunfold/workflow/../resources/label_lut/labellist_withdg.txt tpl-hcpUR100mcgt/tpl-hcpUR100mcgt_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.1
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.2
+Commit: unknown
+Commit Date: unknown
+Compiler: x86_64-conda-linux-gnu-c++ (/root/miniconda3/envs/conda-recipe/conda-bld/dev-connectome-workbench-split_1738013200648/_build_env/bin)
+Compiler Version: 14.2.0
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-hcpUR100mcgt/tpl-hcpUR100mcgt_hemi-R_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100mcgt/tpl-hcpUR100mcgt_hemi-R_space-unfold_den-8k_label-hipp_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-hcpUR100mcgt/tpl-hcpUR100mcgt_hemi-R_den-8k_label-hipp_dseg.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/tmp]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+      <Label Key="6" Red="1" Green="1" Blue="0" Alpha="1"><![CDATA[DG]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="8192"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2cGOwjAMRdEywP//8mgWSKhqpm6a2C/2XWTB8tzEbYDHtm2PCevHcT0b62VYK9pb3qv20X4Fd2b/6L0f6VeY9yr+u8+8z3ovam/5r9hH+SPsKn4le8/Zv+OPslf3j7Bn9F9p8N7w48/l77Fn8lsbZPX32PHn8VsaVPYf2fHn8ffY8dfwc/7xZ/dXf/7jr33+vec/qgF+/Arzjx9/RAOl+ce/hn/G/U/N733/xa/3Dqjgr77/an6lBvjxZ/cz/2O/A+HHn8nfaoA/j79nBrLcf8/82e//+P9vUN1fZf7xX5uBGf5o+4gzsPr+W89A1v2/OwP41/cfNajutz4Dsvqr7z9+WwP8Of3WGcC/vh3/cQP8+M8aZHn+4cfv7VdrgN/fr9TA+/6r1iDSr9DAcvZnnH+VBvhjz79agyh/ZIOI9x9+/Kv4veY/ooHK81+lwZk9m9/793/8+Ffze73/8OP39n83wI8fP/6q/ujvv9H+6vuPv7a/4vwr3n8VG1TwK+2/ZwPF/ceP36sBfvz47f+BefpnN9jb8ev5Zzao7rfO/3cD/LUb4M/X4NnocNQio3+/Xrsun89Z99+6/vy/msxFsg==</Data>
+</DataArray>
+</GIFTI>

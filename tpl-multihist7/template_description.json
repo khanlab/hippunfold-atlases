@@ -13,6 +13,12 @@
         "L",
         "R"
     ],
+    "density_wildcards": [
+        "512",
+        "2k",
+        "8k",
+        "18k"
+    ],
     "Authors": [
         ""
     ],
