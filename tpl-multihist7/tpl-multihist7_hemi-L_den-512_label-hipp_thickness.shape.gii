@@ -6,7 +6,14 @@
    <MetaData>
       <MD>
          <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
-         <Value><![CDATA[Invalid]]></Value>
+         <Value><![CDATA[HippocampusLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-512_label-hipp_midthickness.surf.gii:
+wb_command -surface-flip-normals tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_label-hipp_resample-12.5_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-512_label-hipp_midthickness.surf.gii
+
+]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[ProgramProvenance]]></Name>
@@ -26,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_thickness.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-512_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-512_label-hipp_thickness.shape.gii -trilinear]]></Value>
+         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_thickness.nii.gz /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-512_label-hipp_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-512_label-hipp_thickness.shape.gii -trilinear]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/local/scratch/hippunfold/out_multihist7]]></Value>
+         <Value><![CDATA[/tmp/atlasgen_multihist7]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -50,7 +57,46 @@ Compiled with OpenMP: YES
          <Name><![CDATA[Name]]></Name>
          <Value><![CDATA[ trilinear]]></Value>
       </MD>
+      <MD>
+         <Name><![CDATA[PaletteColorMapping]]></Name>
+         <Value><![CDATA[<PaletteColorMapping Version="1">
+   <ScaleMode>MODE_AUTO_SCALE_ABSOLUTE_PERCENTAGE</ScaleMode>
+   <AutoScalePercentageValues>98.000000 2.000000 2.000000 98.000000</AutoScalePercentageValues>
+   <AutoScaleAbsolutePercentageValues>2.000000 98.000000</AutoScaleAbsolutePercentageValues>
+   <UserScaleValues>-100.000000 0.000000 0.000000 100.000000</UserScaleValues>
+   <PaletteName>ROY-BIG-BL</PaletteName>
+   <InterpolatePalette>true</InterpolatePalette>
+   <InvertPalette>OFF</InvertPalette>
+   <DisplayPositiveData>true</DisplayPositiveData>
+   <DisplayZeroData>false</DisplayZeroData>
+   <DisplayNegativeData>true</DisplayNegativeData>
+   <ThresholdTest>THRESHOLD_TEST_SHOW_OUTSIDE</ThresholdTest>
+   <ThresholdType>THRESHOLD_TYPE_OFF</ThresholdType>
+   <ThresholdFailureInGreen>false</ThresholdFailureInGreen>
+   <ThresholdNormalValues>-1.000000 1.000000</ThresholdNormalValues>
+   <ThresholdMappedValues>-1.000000 1.000000</ThresholdMappedValues>
+   <ThresholdMappedAvgAreaValues>-1.000000 1.000000</ThresholdMappedAvgAreaValues>
+   <ThresholdDataName></ThresholdDataName>
+   <ThresholdRangeMode>PALETTE_THRESHOLD_RANGE_MODE_FILE</ThresholdRangeMode>
+   <ThresholdLowHighLinked>false</ThresholdLowHighLinked>
+   <ThresholdOutlineDrawingMode>OFF</ThresholdOutlineDrawingMode>
+   <ThresholdOutlineDrawingColor>WHITE</ThresholdOutlineDrawingColor>
+   <HistogramRangeMode>PALETTE_HISTOGRAM_RANGE_ALL</HistogramRangeMode>
+   <HistogramBarsVisible>true</HistogramBarsVisible>
+   <HistogramEnvelopeVisible>false</HistogramEnvelopeVisible>
+   <HistogramBarsColor>CUSTOM</HistogramBarsColor>
+   <HistogramEnvelopeColor>RED</HistogramEnvelopeColor>
+   <HistogramEnvelopeLineWidthPercentage>0.5</HistogramEnvelopeLineWidthPercentage>
+   <HistogramNumberOfBuckets>100</HistogramNumberOfBuckets>
+   <NumericFormatMode>AUTO</NumericFormatMode>
+   <PrecisionDigits>2</PrecisionDigits>
+   <NumericSubivisions>0</NumericSubivisions>
+   <ColorBarValuesMode>DATA</ColorBarValuesMode>
+   <ShowTickMarksSelected>false</ShowTickMarksSelected>
+</PaletteColorMapping>
+]]></Value>
+      </MD>
    </MetaData>
-   <Data>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</Data>
+   <Data>eJwNk3lYzYkChiOMxli6ZtE1KIQkMpRl+L0z00Ib6jYJlYqOFkudFKfbpOWUttM5RySpaJk6Q6koJSSptBCVqCxZpjK2EYMb4vbH9+f3vc/zPc/rfSyUN++UdIgPMGlfHD8rfNgvd6WnwJXcFA+kVra8v7WVu8Fe5Op6EGImJaTFlZF1Yja/WMiGb1PRk1xi3ZAq8h/fYFHUXdIin3NlZz3ShiPE/ZiJ6OcYLs4LY6KZIc/9dOgtj2DVaxFDGy3QzU2ncKUKGycpy5VxtLUfoHdiECX6Lmz320hckYSMGnNCp+kREDeXJx6uhFbGU69jgpnlRt4O9nU9/+BAcgRp5z2wrNiF82kx6Wpw2Vqf6brmbD2syTHH0ZhfHIPjt6bMPQrJM3azvbGL9F/DaY6PYW3tFs5+586yUVKGFiXyVJnMcd9t/GmzDqN/5qJ5aiaOgbNYt3sRv7lvIS1Og+Gnsxg5WclDkTMhqRJ0PdYzYBSL9ZUCJHX1xIfk0J7szZSdIoLvrqL8r6k4l88kp30rUu80EgzusV9dxTlhC+plu3CU+zMrMpFUpxQ8JoZyvU2fuvaFDK0eiZZ6h1C89JEw5PzXVFqE4NxRyo7icrQrK9hr7MGNEVLevFxDaduPGLpvwMrQh7VN6xm1FGo6xjE25p0w/G6voHo1krWScO70XKVmaQHzHrVgclaJa34Ad3fYIQ75CbfuBVzYYc/NKGNmOSxleeUEppmo8352s3B5lxqRM8IwWNyK96Uk1r7tYuSsPCr9E/hsqqBkqox/ctLRG1OC7ZRjVCdk4XLPB9uj43FL6RCe/PRUmN2zh33KBvxeFSM1bmO1cTh5qxUcfXWI2oQgxkoC6SvZNfinO013fQj3tuDjpvHojOwWXhWr8cOIPezWP8ljWSrDX7bSPd+Ps3MkDGTv5ta+dTzyXoldlhl1RZ5kaf7GktVLmPv7UNRUTwXLAy+E0cv8eF10hgktpVwbeMA5PQcWp3oycFhJoEYeXdEqCsfnEpZjjUuxDX3WixmVNw3D4X3CmvoG4dmxdRha5qJV1cjfC3uQ5+7kP/7OfDFNhqnBDrxP+aHjLWXYMS+Onp7Pl/EC9mXf07poGP2eF4T4IAvsxhVhadODu99bKoM3keDoy4heGZJDKhzK0vDtCCO2N5Kzer7UPXAg18iSMrePQvHtAuGyQofCq+kYfd/FxsxODmmFcL8yBvVB17pccrnjn4ihfyimK8I4/I0VX2rr82n5bDo3fxZEN1oEHYevcZ6cjMisjWH1XQSNTaZifSqR0f8l0dCcMrOluIo3s83Yk07xcrT+msRX9rp0X9QYdLtTyDcdweQ5Mqom3uQ3cT2C+Agt2ko+20aRmp3G6zkxfDCOY1NwCp2mCXyxwh8zkSvbpFrYdajxrH8YDfcPonunk9uSBroCCmnzzkb8UkXtg/3oWYuZcsOBcg0rSg1lPNT0JsLXgp3bNJnR2SnMSf8kaOoncPV2F0VRVRg4nEKrMYdP+1Pwt/GiPDSMqQGHyDYIQ2UVxsXsUJzWrCZPmIul6rbQ4PZMyBsRSlBtBzW3z/DkziUsfbI5KJGRN8iT1YjIzI7D/20SY0+kkFB4kLIXgVxv16U66b7wqf+R4PUugsmTm9Fe2cizsGpk3xWwPbaUDctKsd2fTJb9Vvq32PNMuZvuadH8O3YXj38xYkbrLSGku184rx5Bde91rGPqUGsfjOcpZk+X4PvEnp5bTlwb58VXAz6I1QOJqRWjPcuDNeYgG/1cuJ7dKVx9mEaesobjbo1sn9TAJMccqvbGYWGZQcbMZJxfS/nTRUxrSjjrFNEEJQZiVGzGzjEPhLoD74STe/YzxKKZ/qQyktZX8aHmOKer5dhuiSZHJCfjX1tQW+SEdb4XqlYRqzMcme5uxe76XuGDolt4U5yIvtlDVPILfPJtZNL7LMQm+6hPjeXDMCmt9lFYa0ejeVDGxl4phkeDmRXjimXLRyFP0iy42GXi3tJE/skT5MVUYDI1m6duCs7oOPNqig1DtARqm1zRCBAT0Sen3TeQjnGr+N+R14I86LawTKrAT6OZ4da59A+cIODgYQr3HqFUI4MyrQP02BzhVnE6WuvT+aEphe6Jydie2ISryWi6VrwUPk5TMKH6MUuMT+M79hiZq5Tcq4wc3FdgYZqEfv1m5DvNOermTsEEKfEGcj5cSaCyQh+L2muC3YrlZPWV8HnsH5TEnUNday9NG6NY7x/AvfFivjGS4bQkA3fjEs7YVRBseIHEjGS0b1qzwv++MCxiIdeNi1H/vZAQn3z+3qDAZFE6V/UOoeqUEyWKo9Isiw3meej6FzA/M5sz9/YyT7EJp1/eCn7xCwlZkMLmB3LKCzORxRYyR6SkNyISK4MYLg2Jpc87hqQpMvp6I9BfFsKV6DAWZYeTfMeV4l+d0JMv4P+bDYaL</Data>
 </DataArray>
 </GIFTI>

@@ -6,12 +6,15 @@
    <MetaData>
       <MD>
          <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
-         <Value><![CDATA[Invalid]]></Value>
+         <Value><![CDATA[HippocampusLeft]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /tmp/hippunfold/hippunfold/workflow/../resources/label_lut/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+/nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-8k_label-hipp_midthickness.surf.gii:
+wb_command -surface-flip-normals tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_label-hipp_resample-50_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-8k_label-hipp_midthickness.surf.gii
 
 ]]></Value>
       </MD>
@@ -33,11 +36,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-8k_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-8k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-8k_label-hipp_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-8k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/local/scratch/hippunfold/out_multihist7]]></Value>
+         <Value><![CDATA[/tmp/atlasgen_multihist7]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -61,9 +64,9 @@ Compiled with OpenMP: YES
    <MetaData>
       <MD>
          <Name><![CDATA[Name]]></Name>
-         <Value><![CDATA[]]></Value>
+         <Value><![CDATA[#1]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt2ktuwzAQA1C7ie9/5SIoAgSGGsv6DKkhF0Kz6OaRI9mOs2/btk9YP8HrUVjPL+v9P4r2z7Wau2RV8tdmEO1nmPm79pX9vfv+tY6F7fb32Uf4Ue5R3ff42ex3/MdmfzZ/y95fcf/33vcci/uvMoiaf0Z/5P5f0X8UlrI9k/8qg7d39etfrz9r/57/OD/K3ur/z27/evPfega4/xz9M/gZ+2+ZfZX+ff3P74++/0NlwHD+Mfqjzz82v/u3X9mPmH9EBkzXP/t59oC6P/r+l23+Vfzq/dv/Zy3lgPBHZ/A4fVb0K/evPv8ld88zwGr2b36V/lsyyORnmn/7tf2Ivc+0/+3nyiDSj7SPmgEVf8b+R+yBlff/HX/G829EBvavbbe/nIG6v5SB/TnPP9T8M/trM8jq9/k3v3+02f7+PZDZX3MNzOxX79/+6wzU/Fnvf0r+mgx6/UwZqPdfk8FoP1MGiP7t58nB/vvvQEb6GXJA9o/2o+cf7WfpH5kDi9/96+5/lgwivv+3336WDNT3P+L9H1MGjP2zz0AmP8vzH6r7lgwy2dn83v/u334uf+bnX/dvv7I/+v0/Wwb2a/sZ9z+bP/PzL2v/kTkw9h/lZ/3+y/3bj/BH/f6LKQPm/mf7We//mPo/ZxDtn5nBuf+aGcjkvzMDSH/kOaDuv8oA5Z99DtRmgfRHnAXf5oKl//30d+Z6fnx++X8B8BRFjQ==</Data>
+   <Data>eJzt2s0OgzAMA2A24P1feZdNQqiD0p/YSXyotOtnJ4VNey3L8ppw3oZnLZyt4qyT7Gh/jf13Zrhn+ktdI/3oOe+x7878NVk88ff2j7L/8z+19/SPtI/w7x1+tL3kb+k+q39f/Pp777198esf8dwb4WfMwHL+URmMfO/x6GfZf4/+szvb/kfwj7Z78//LIIu/pf/9JoPo/hn9M82+5r/dHqX/qwyy+7X/8fc/w/xf2a39iAxm7L78fvxXGSD81hmw9c+0A/Jr/7P23/Pu1+tnuQPllz+Dv+UOkF/+6H7E91/5cfZSDtH9R3tG/8+c1X+0svgtM2jx39k9+Uvmuwws/IgZyNr/3Qwg9p8pA/Uf9/5v8c/u39ou//gMIvkt9x9lZ/EzZtDyHSCSv2UGvPprZyDi/jP4WTPI5Ff/8suPe/4xZIDs34M/ev+9M+Dd3/sMlN+3X/Mvf2Y/ev4ZMpAf9/6D9qP3H+2v6f8qg2j+pzsQzY/Yf3QGDH5kBuj7j8mv/nF+VAbyc8w/KgPk75/y4zOQn2v/kf5zBtn6Rz//vN2Bs/zWOcjP59f8yy+//Fn9VvajH/H7N9rO6Ef1zzL/qP5Z/Nn3X/PP4890/8vP4Wfaf5TfMgNWv1UG8re9A8gfI4PW/wDJHyMD+eVn98/M4OyvfQ5E8dfOwDkDaz9LBln8d3cBwj/7Hnh/jTU5RPMfz3aRxQru/5yDRS5b4fMHFqxIlw==</Data>
 </DataArray>
 </GIFTI>

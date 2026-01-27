@@ -6,12 +6,15 @@
    <MetaData>
       <MD>
          <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
-         <Value><![CDATA[Invalid]]></Value>
+         <Value><![CDATA[HippocampusLeft]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /local/scratch/hippunfold/hippunfold/workflow/../resources/atlas-v2/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /tmp/hippunfold/hippunfold/workflow/../resources/label_lut/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+
+/nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-2k_label-hipp_midthickness.surf.gii:
+wb_command -surface-flip-normals tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_label-hipp_resample-25_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-2k_label-hipp_midthickness.surf.gii
 
 ]]></Value>
       </MD>
@@ -33,11 +36,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-2k_label-hipp_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-2k_label-hipp_dseg.label.gii]]></Value>
+         <Value><![CDATA[wb_command -volume-label-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-2k_label-hipp_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_den-2k_label-hipp_dseg.label.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/local/scratch/hippunfold/out_multihist7]]></Value>
+         <Value><![CDATA[/tmp/atlasgen_multihist7]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -61,9 +64,9 @@ Compiled with OpenMP: YES
    <MetaData>
       <MD>
          <Name><![CDATA[Name]]></Name>
-         <Value><![CDATA[]]></Value>
+         <Value><![CDATA[#1]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt1zsWhDAIBdB8zP63bDPTeHBkHiSovIL6AiFBaymlKqOB0T+xCTHL7kKgvrXuM1vjo7bGHxPtq3Of7Wt6v8qXchjB9Uf6I5l/zCGbH91/+pg/a/fRp7/SR98/q98EO0v9v2aAfg6/3cjvSX3pDFZ8f2hnIKL+p/je/ZdmgH7MHYjwkfn3vANP9b12cbSPzN+dfEsOHv2nT5/+O/yNPuSjOXidv8X32D9oDm/z/83h7B8om3/Mw+Jb3oNv7CuDEWo=</Data>
+   <Data>eJzt1sEWhSAIBFDT/P9ffptWnKR3ZHIgWbC+g5B2lFKOP6oaql113tRbdhN1Zz/5lp5lBqY/sju5d81H7dzI7xv7PX2a3zfwtbt3B9/T+Wu7791HvP0MHzX/9GP6TWTYzWefvze/OfGl/dX3T2ZgzH+UYWX/0f0VO+B5/kh/lGG1H61/1D04u3/R/Vps+496By39I2bA6h/lW2eQvt2fzYDYf6tvuX+R58/qH+Gz+08/ro/4/tjf/2wG7R8g/fczsH0tw6w/ewYyg8W33An16v8Hm0YSHQ==</Data>
 </DataArray>
 </GIFTI>

@@ -6,7 +6,14 @@
    <MetaData>
       <MD>
          <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
-         <Value><![CDATA[Invalid]]></Value>
+         <Value><![CDATA[HippocampusDentateRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-512_label-dentate_midthickness.surf.gii:
+wb_command -surface-flip-normals tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_label-dentate_resample-12.5_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-512_label-dentate_midthickness.surf.gii
+
+]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[ProgramProvenance]]></Name>
@@ -26,11 +33,11 @@ Compiled with OpenMP: YES
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-dentate_gyrification.nii.gz /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-512_label-dentate_midthickness.surf.gii /cifs/khan/shared/data/hippunfold_models/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-512_label-dentate_gyrification.shape.gii -trilinear]]></Value>
+         <Value><![CDATA[wb_command -volume-to-surface-mapping tpl-multihist7/tpl-multihist7_hemi-R_label-dentate_gyrification.nii.gz /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_den-512_label-dentate_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-R_den-512_label-dentate_gyrification.shape.gii -trilinear]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
-         <Value><![CDATA[/local/scratch/hippunfold/out_multihist7]]></Value>
+         <Value><![CDATA[/tmp/atlasgen_multihist7]]></Value>
       </MD>
    </MetaData>
    <LabelTable>
@@ -50,7 +57,46 @@ Compiled with OpenMP: YES
          <Name><![CDATA[Name]]></Name>
          <Value><![CDATA[ trilinear]]></Value>
       </MD>
+      <MD>
+         <Name><![CDATA[PaletteColorMapping]]></Name>
+         <Value><![CDATA[<PaletteColorMapping Version="1">
+   <ScaleMode>MODE_AUTO_SCALE_ABSOLUTE_PERCENTAGE</ScaleMode>
+   <AutoScalePercentageValues>98.000000 2.000000 2.000000 98.000000</AutoScalePercentageValues>
+   <AutoScaleAbsolutePercentageValues>2.000000 98.000000</AutoScaleAbsolutePercentageValues>
+   <UserScaleValues>-100.000000 0.000000 0.000000 100.000000</UserScaleValues>
+   <PaletteName>ROY-BIG-BL</PaletteName>
+   <InterpolatePalette>true</InterpolatePalette>
+   <InvertPalette>OFF</InvertPalette>
+   <DisplayPositiveData>true</DisplayPositiveData>
+   <DisplayZeroData>false</DisplayZeroData>
+   <DisplayNegativeData>true</DisplayNegativeData>
+   <ThresholdTest>THRESHOLD_TEST_SHOW_OUTSIDE</ThresholdTest>
+   <ThresholdType>THRESHOLD_TYPE_OFF</ThresholdType>
+   <ThresholdFailureInGreen>false</ThresholdFailureInGreen>
+   <ThresholdNormalValues>-1.000000 1.000000</ThresholdNormalValues>
+   <ThresholdMappedValues>-1.000000 1.000000</ThresholdMappedValues>
+   <ThresholdMappedAvgAreaValues>-1.000000 1.000000</ThresholdMappedAvgAreaValues>
+   <ThresholdDataName></ThresholdDataName>
+   <ThresholdRangeMode>PALETTE_THRESHOLD_RANGE_MODE_FILE</ThresholdRangeMode>
+   <ThresholdLowHighLinked>false</ThresholdLowHighLinked>
+   <ThresholdOutlineDrawingMode>OFF</ThresholdOutlineDrawingMode>
+   <ThresholdOutlineDrawingColor>WHITE</ThresholdOutlineDrawingColor>
+   <HistogramRangeMode>PALETTE_HISTOGRAM_RANGE_ALL</HistogramRangeMode>
+   <HistogramBarsVisible>true</HistogramBarsVisible>
+   <HistogramEnvelopeVisible>false</HistogramEnvelopeVisible>
+   <HistogramBarsColor>CUSTOM</HistogramBarsColor>
+   <HistogramEnvelopeColor>RED</HistogramEnvelopeColor>
+   <HistogramEnvelopeLineWidthPercentage>0.5</HistogramEnvelopeLineWidthPercentage>
+   <HistogramNumberOfBuckets>100</HistogramNumberOfBuckets>
+   <NumericFormatMode>AUTO</NumericFormatMode>
+   <PrecisionDigits>2</PrecisionDigits>
+   <NumericSubivisions>0</NumericSubivisions>
+   <ColorBarValuesMode>DATA</ColorBarValuesMode>
+   <ShowTickMarksSelected>false</ShowTickMarksSelected>
+</PaletteColorMapping>
+]]></Value>
+      </MD>
    </MetaData>
-   <Data>eJwFwVtIUwEAgOFQRsLIypSW6Zxnbq6ZbRVLXY7/THSipSucsyErkBZBV8sawcgVavaQPTidpqCS124PRUIJlqVNIg11BEb5MKmoBzXKkRbS981k14nLH3pElbtcfBw8IuZ89bC2y83kcg3f6rvJidPy84SB0NRFMnozGS7Tsq4wF2fhQ35Xn2a8L43wrAO9303/pixGrQoOXW3kyugED6YF3s0LLBR24Yz4jjVlC9HNKrzPuxgxNfBoLpJwZDK2Ux0MRTUT/ymCqbDAYHeAe+YGLt9dj+NpHJLEEB1TlSS+kXApYSt/PrYRo6ugQrqBLzMKPMF69Et2cjsTqPOpqfIWoF7O4naTjrJYE0ufdzDSn8pcMBPltIHFNTn+hWxKx/JIf5mJ3qjlyU4DQ28vYF8toLhNg29WRc8LF3LnQQ7rk2nJV2F1lVEbKsGbpGPyZAr/AvuxRBfj2XyAX39TWbHsxbXvKCUtJpqLFJzrzeCm3Unsxjye3ZLRtyeF7uGzyOxmHO0aKtPlxDjt5NVa2B5MpbpV4NV4KdLXAlGmeIwDGlptFs7c1zFRLiN/fhuB8x52j1lJMghce69gIe0YWTYzSWE9aqWRQX8T8srjFOHA025FstpCbeA6K74aFhvvMGDUiDd+CKK0Sicqo3XifwJnyIY=</Data>
+   <Data>eJwNzE1IkwEAgOEgSys1YrlYSypJ9qO0seWWufl+c+qwRWrTcojLEbIJm+J0UiuiMq1IDBQxRTH7EbJRmHpIbRmFSCidShsFRrXcIYjQ2xh5f3iK25IE9cJeYT1DInS0pwhakZuPIRk/In3ISt4jHTcSCVkwDdcTCxZTkqOh3tBC5YUwv0R+Mkw5KLx1+O6fpFR9mjyPDqejlcnZRwwrczGY9cxo5vCPTCFRZ/K0R4c8MER2bw+DNjEuhQF7wxw7LN18GhWzLe04G6FFjqVOMSmVUl6kICn5M+GDXYz6xChnZHijQYZf+Jned5jba2rMzjHSrY3Y9itYeJXHjbRmlnba+fKsmAnJKVaVRuajddx1laLJNJFryeJtewELD4pY9duYKDxBb/wsX7MHkG+9RLrFiDbBiuJWG7kFFbxL0BJINXC0yc1k5R0iy/nURM1s9zjoGL9K/JyDYJKFx+erMCob0PRVoG7Vsidu5kz4ImXyctyFKq5tPper/dxcruLfEx2NDg0r6z7yu8xUj1jYUrBpYnbEiYUc+ZvFtxU9z39WEpiwov9tpEaqIuXQAHR7iU+r0DSacH4IsPtNLbFZO2sva/Fc6edPzyCvlzqZGi/D4epnQ7jO9/kWHjrusWvsgJCYLBU6m0VC0+Is/wEMmMMS</Data>
 </DataArray>
 </GIFTI>
