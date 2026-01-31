@@ -11,7 +11,7 @@
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz:
-wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsfixhdr_dseg.nii.gz /tmp/hippunfold/hippunfold/workflow/../resources/label_lut/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
+wb_command -volume-label-import tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldsunflipfixhdr_dseg.nii.gz /tmp/hippunfold/hippunfold/workflow/../resources/label_lut/labellist_withdg.txt tpl-multihist7/tpl-multihist7_hemi-L_label-hipp_desc-subfieldswithlbl_dseg.nii.gz
 
 /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-512_label-hipp_midthickness.surf.gii:
 wb_command -surface-flip-normals tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_label-hipp_resample-12.5_midthickness.surf.gii /nfs/khan/data/hippunfold_cache/hippunfold-atlases/tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_den-512_label-hipp_midthickness.surf.gii
@@ -67,6 +67,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[#1]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt1bEKACAIBFDL+v9fbnEQQbQsImm48Z0JUQUAikhVgpRG6U4nOxrLjLfmWx07PLez+5/20fNn97xjdf7LPrr/97b33uGT3nrDb/qaZL72f3g6oh6DnncMsIoEjg==</Data>
+   <Data>eJxjZGBgYBzFIxozkYix6aGn/cS6caDsxuYOXG6jtf2kxuMoHljMjAczIdH0spMYTKndLBRgSt1OyHxWKEZmsxKhj1i3M2Cxi14YZCcAmUwEQw==</Data>
 </DataArray>
 </GIFTI>

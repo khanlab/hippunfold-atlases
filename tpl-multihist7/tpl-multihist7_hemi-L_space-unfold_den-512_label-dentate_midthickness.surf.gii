@@ -5,6 +5,13 @@
        NumberOfDataArrays="2">
    <MetaData>
       <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_label-dentate_resample-12.5_midthickness.surf.gii:
+wb_command -surface-flip-lr tpl-multihist7/tpl-multihist7_hemi-R_space-unfold_label-dentate_resample-12.5_midthickness.surf.gii tpl-multihist7/tpl-multihist7_hemi-L_space-unfold_label-dentate_resample-12.5_midthickness.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
          <Name><![CDATA[ProgramProvenance]]></Name>
          <Value><![CDATA[Connectome Workbench
 Type: Command Line Application
@@ -70,7 +77,7 @@ Compiled with OpenMP: YES
          0 0 0 1 
       </MatrixData>
    </CoordinateSystemTransformMatrix>
-   <Data>eJxNyqFuhEAUQNERa0gaDAgMHrmikqRim9byCRV8QgVyVZM6NKoCTUJSget2atEkOBQCPZosL+nMXHfEUerhR72//in19aTEjy/e5tn7+/LvFX/FX/FX/MvN/8PuH3b/sP3XT//F9ovtF7vf4/f4PX6PP+PP+DP+7P9N/bovtl9sv9j9GD/Gj/Fj/Aw/w8/wM/wcP8fP8XP8Ar/AL/AL/BK/xC/xS/wKv8Kv8Cv/3z78F9svtl/sfo1f49f4NX6D3+A3+A1+i9/it/gtfoff4Xf4Hf6AP+AP+AO+xtf4Gl/jj/gj/og/4k/4E/6EP+Ev+Av+gr/gb/gb/oa/4Rt8g2/wDf6Ov+Pv+Lv/55N2X2y/2H6x+wF+gB/gB/ghfogf4of4EX6EH+FH+Al+gp/gJ/gpfoqf4qfu3wE6rw27</Data>
+   <Data>eJxN0Ctuw0AARVErxMTExKSkizBvpX7kRWQRs4TKONh4cHCw+0GDg4ODBwdVGo/k89BBD9ymmd6asvjSFMfv3c8/uwOOOOGMu19+8IgnfMQBz/iEFxzxGV/wihO+4hu+44wf+PC3u8Ud7vGAnzb/fO79i2v/4tq/OOCIE8649t9+8IgnfMQBz/iEFxzxGV/wihO+4hu+44wf+EDDFne4xwOu/b8+9v7FtX9x7V8ccMQJZ1z7bz94xBM+4oBnfMILjviML3jFCV/xDd9xxg98oGGLO9zjAdf+r+97/+Lav7j2Lw444oQzrv23HzziCR9xwDM+4QVHfMYXvOKEr/iG7zjjBz7QsMUd7vGAt/7/9HZ9TA==</Data>
 </DataArray>
 <DataArray Intent="NIFTI_INTENT_TRIANGLE"
            DataType="NIFTI_TYPE_INT32"
@@ -88,6 +95,6 @@ Compiled with OpenMP: YES
          <Value><![CDATA[#2]]></Value>
       </MD>
    </MetaData>
-   <Data>eJxNlI87U1Ecxo/KWhQ1KhSypto0oaxRZohYoSxqNInIEPkxJpV/ve/73M99unue93nfz/d8773nnnPuqpxzl5z3k1eZqk1XTTdM13HxNfIt001cHDHdgW/j4hbGG7lPI+xf20xuhtV/bvplOsPFf01/YOVTsmrfTRumNaS8ato1lUxbuPgHece0iZeoNzCHCN7Au4RZF63JFdhfnzBrEmZMucfUb3qGi3vJaeppeMDUboqa2nDxfdavnTVpIauniXX0162JrHfZN/3Ed3gv5SPqR3DZVDStmD7j4q+oyBrKl8nbrOEWLt7DNwL7sE1Phf35TT6FK8yjTK1C1rXrPGudeawyN/E3fIWxEryFbwTyZqC/BI+bXpmyphFYedA0bMqYXpBVq3PeWfXPvDjCPtdRryGrFoL9LK8m65u6gIcC9cumWnIt14fovch4iKyz8dD0ABfrnLQ67xy0kOX+ORHfxZvoS5memp7j4j7ePUU9BQ8yJu7F+93/8yweQCn6dV6+sHfytUDW2KJpCVY+dt63fEqWl6mJz/AT8jvTvOkDLn7PPRdMH/El7j/KXvt7Lp4wfTIVnHf+5UVyEV5GBe5T4Br/uQVygect4gXG6513NmrY23qyXP8tEcbryUPMbQQXZ/DBQB6Ah+jNml7CWTxN3xBjYn2zB877T5Dvkw/hPXyXvA+X8WPyCXxI7YCa1nbSed/YFHmc/Zlmj6bht+TJQO809Rx5ChfPmN6QX6Mc+yifpWcW9nunmEMOn+Cec8xnDp4hzwfqC7D2Yoxrx3i28jCcwUfJ+jYTzvtOE3AX98s773zOkReYc5455BlT7nbe99mHi5/gXYGcgOWdPLcTjpti8CM8Tk6aHpPjsHIPuZfxJLVucgIlA9f10Z+kT6z/nA7n/f/I75GjcBveGsgx+jqYa4wcDbxXB/kf3TqKag==</Data>
+   <Data>eJxNlQtXUkEUhces0B5WWpaZhc9ENF/ko0QDxEwlDU1FgsrMMh9pmRVZ/XXPXvebta5r7bW/fe6ZOzgzDBHn3EXTQ7wL7iJ34hfg26Yx0x1ceRRvNI2EsviW6THcSBav0uf7lddM703PTO9w5ZQpDW/iaepRU5UL/sSt5CjjU9Si8KFp0fQVV16CB0z9+CL1R3A/rvzSdNV0xdSH98Japw7W6jzsa8rVsLydua7zfvk1+AZ5EB+Ah0z1PB/CVb9vmjI9wJUn8RZTMpST7F0T+9hEHjc9IY/jyneRuBmJn5remv6Z/uPKZXyKOX2eZFyRsUXyhumU/AdXfmMq8d4yrvwXL/POEp5kXCk09pT+NtM5F5yNVnIVtTb2oxrWvqThFN4KZ9i/dlx5mp4M9QxZ76hzwZnpZ2/rYLnOUB/P62B975674Ds4A6v2Gf6EK8+aYqZLplpcuccUd8G5vIwr99ITpx4nq7/Cum/gFfaiwB75s1GgpwL/xivUteYTrP8EOQkXqRfJOgMtsHruwb7WTM8Ez5pZ2w+s+TS8hWu9N+EMeZv18mu5zRpmWddOeIbcQfb1DubJMnYGV/6IsnyGLL1bzNXNPnaTZ+EaUwSOhHr0/AV72A3XwLV4DNZddOCCe+yArHtJZykH58h99Cjv4wf0/DKtm34i8Ro+GuIx8jpj/L6vw2PwOF6Ada+f8J4T5hC/csGdtoQr6x47hFU/glXT70bCBb8lN2HVjk3Lpu+48orpNfP5+ZV/MF48gq/Cx2Q/9pj+BNmPS9Cj798OezYLa7/mXPC96oHnyTGyr8dC/V9Mu/TOwTuw79mhL++Ce3+QtcnDw6xLA5wg15MbGDdMLQGv4Mtwnux78zzT3bHggrMkz8Fxci+ff4FaDt7H90I8z/+4R95ljm/sYx72Nf2fR3CefAaQOopq</Data>
 </DataArray>
 </GIFTI>

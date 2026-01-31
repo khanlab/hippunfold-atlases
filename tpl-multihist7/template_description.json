@@ -20,13 +20,14 @@
         "18k"
     ],
     "Authors": [
-        ""
+        "Khan AR",
+        "DeKraker J"
     ],
     "Acknowledgements": "",
     "BIDSVersion": "",
     "HowToAcknowledge": "",
     "License": "MIT",
-    "Name": "HippUnfold surface-based template and subfield atlas",
+    "Name": "HippUnfold surface-based template and subfield atlas based on multihist7 dataset, with dev-v2.0.0 surfaces. Note: this version has unfold surfaces where L and R are in different spaces.",
     "RRID": "",
     "ReferencesAndLinks": [
         ""
